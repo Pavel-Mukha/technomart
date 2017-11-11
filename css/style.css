@@ -5,6 +5,27 @@
 /* box-shadows */
 /* border-radius */
 /* blocks */
+.btn {
+  font-family: "Cuprum", sans-serif;
+  font-size: 21px;
+  line-height: 1;
+  color: #000;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease; }
+  .btn:hover {
+    color: #ee3643; }
+  .btn:active {
+    color: rgba(0, 0, 0, 0.3); }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,12 +84,16 @@ table {
 
 /* header */
 .main-header {
+  height: 320px;
+  background-color: #f1f5f7;
   /* logo */
   /* search */
   /* bookmarks */
   /* backed */
   /*order*/
-  /* info */ }
+  /* info */
+  /* contacts */
+  /* user-block */ }
   .main-header__wrapper-status-bar {
     width: 100%;
     background-color: #293449; }
@@ -122,11 +147,11 @@ table {
     outline: none;
     border: none;
     background-color: #293449;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -148,7 +173,7 @@ table {
     height: 17px;
     margin-left: 17px;
     margin-top: 12px;
-    background: transparent url("../../img/sprite/sprite.png") no-repeat 0 0;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat 0 0;
     opacity: 0.3; }
   .main-header__loupe2 {
     position: absolute;
@@ -160,17 +185,17 @@ table {
     height: 17px;
     margin-left: 17px;
     margin-top: 12px;
-    background: transparent url("../../img/icon-search.png") no-repeat center;
+    background: transparent url("../../../img/icon-search.png") no-repeat center;
     display: none; }
   .main-header__field:hover {
     background-color: #212a3a; }
   .main-header__field:hover ~ .main-header__loupe1 {
     opacity: 1;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
   .main-header__field:focus ~ .main-header__loupe1 {
     display: none; }
   .main-header__field:focus ~ .main-header__loupe2 {
@@ -190,11 +215,11 @@ table {
     display: flex;
     flex-basis: 145px;
     position: relative;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
     .main-header__bookmarks:hover {
       background-color: #212a3a; }
   .main-header__bookmarks-href {
@@ -217,24 +242,24 @@ table {
     margin-top: 12px;
     width: 16px;
     height: 16px;
-    background: transparent url("../../img/sprite/sprite.png") no-repeat 0 -27px;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat 0 -27px;
     opacity: 0.3;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
   .main-header__bookmarks:hover .main-header__bookmarks-href::after {
     opacity: 1; }
   .main-header__basket {
     display: flex;
     flex-basis: 154px;
     position: relative;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
     .main-header__basket:hover {
       background-color: #212a3a; }
   .main-header__basket-href {
@@ -257,13 +282,13 @@ table {
     height: 16px;
     margin-left: 17px;
     margin-top: 12px;
-    background: transparent url("../../img/sprite/sprite.png") no-repeat 0 -53px;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat 0 -53px;
     opacity: 0.3;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
   .main-header__basket:hover .main-header__basket-href::after {
     opacity: 1; }
   .main-header__order {
@@ -271,11 +296,11 @@ table {
     display: flex;
     position: relative;
     background: #63a63e;
-    -webkit-transition: background-color 0.3s ease;
-    -moz-transition: background-color 0.3s ease;
-    -ms-transition: background-color 0.3s ease;
-    -o-transition: background-color 0.3s ease;
-    transition: background-color 0.3s ease; }
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease; }
     .main-header__order:hover {
       background-color: #5fbb2d; }
   .main-header__order-href {
@@ -287,8 +312,7 @@ table {
     color: #ffffff;
     text-decoration: none; }
   .main-header__wrapper-info {
-    width: 100%;
-    background-color: #f1f5f7; }
+    width: 100%; }
   .main-header__info {
     display: flex;
     justify-content: space-around;
@@ -300,16 +324,91 @@ table {
     line-height: 1.43;
     font-style: italic;
     color: #ee3643; }
+  .main-header__contacts {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    min-width: 220px; }
   .main-header__phone {
     position: relative;
+    align-items: center;
+    justify-content: center;
     height: 45px;
+    margin-bottom: 5px;
     border: 3px solid #ffffff;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 21px;
     line-height: 1;
     color: #e9292a; }
   .main-header__phone::before {
     content: '';
-    position: absolute; }
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 19px;
+    height: 19px;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat 0 -79px;
+    margin-top: 10px;
+    margin-left: 16px; }
+  .main-header__address {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #32425c; }
+  .main-header__user-block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; }
+  .main-header__sign-in {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 48px; }
+  .main-header__sign-ico {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 19px;
+    height: 17px;
+    margin-top: 13px;
+    margin-left: 15px;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat -31px -110px;
+    opacity: 0.3; }
+  .main-header__sign-in:hover .main-header__sign-ico {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
+  .main-header__sign-up {
+    margin-bottom: 10px; }
+
+.main-navigation__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.main-navigation__item {
+  display: flex;
+  flex-grow: 1; }
+
+.main-navigation__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #32425c;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 5px solid #293449; }
+  .main-navigation__link:hover {
+    background-color: #293449; }
+  .main-navigation__link:active {
+    background-color: #1d2739;
+    color: rgba(255, 255, 255, 0.4); }
