@@ -1,4 +1,4 @@
-.features{
+.categories{
   display: flex;
   flex-direction:row;
   justify-content:space-between;
@@ -12,7 +12,7 @@
   &__item:not(:last-child){
     margin-right:10px;
   }
-  &__item:not(.features__ico){
+  &__item:not(.categories__ico){
     display: flex;
     flex-direction:column;
     justify-content:flex-start;
