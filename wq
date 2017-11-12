@@ -1,0 +1,63 @@
+[33mcommit 0f63db67aee9fbe70b1987e24e92257bd3825797[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Pavel Mukha <olddex@gmail.com>
+Date:   Sat Nov 11 22:33:40 2017 +0200
+
+    поправка
+
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 172e27a..5c16a88 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -133,6 +133,9 @@[m
+     <detection-done>true</detection-done>[m
+     <sorting>DEFINITION_ORDER</sorting>[m
+   </component>[m
+[32m+[m[32m  <component name="PhpServers">[m
+[32m+[m[32m    <servers />[m
+[32m+[m[32m  </component>[m
+   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />[m
+   <component name="ProjectFrameBounds">[m
+     <option name="x" value="-8" />[m
+[36m@@ -220,6 +223,9 @@[m
+   <component name="ShelveChangesManager" show_recycled="false">[m
+     <option name="remove_strategy" value="false" />[m
+   </component>[m
+[32m+[m[32m  <component name="SvnConfiguration">[m
+[32m+[m[32m    <configuration />[m
+[32m+[m[32m  </component>[m
+   <component name="TaskManager">[m
+     <task active="true" id="Default" summary="Default task">[m
+       <changelist id="191ebadf-2997-400e-b090-2a85e94d488c" name="Default" comment="" />[m
+[36m@@ -231,12 +237,12 @@[m
+       <workItem from="1510259648278" duration="56000" />[m
+       <workItem from="1510299179882" duration="15277000" />[m
+       <workItem from="1510328139370" duration="12697000" />[m
+[31m-      <workItem from="1510390936168" duration="10483000" />[m
+[32m+[m[32m      <workItem from="1510390936168" duration="11080000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="45078000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="45675000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />[m
+[36m@@ -280,6 +286,14 @@[m
+       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />[m
+     </layout-to-restore>[m
+   </component>[m
+[32m+[m[32m  <component name="Vcs.Log.UiProperties">[m
+[32m+[m[32m    <option name="RECENTLY_FILTERED_USER_GROUPS">[m
+[32m+[m[32m      <collection />[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">[m
+[32m+[m[32m      <collection />[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+   <component name="VcsContentAnnotationSettings">[m
+     <option name="myLimit" value="2678400000" />[m
+   </component>[m
+[1mdiff --git a/img/sprite/sprite.psd b/img/sprite/sprite.psd[m
+[1mindex 7d4079e..3dc93d8 100644[m
+Binary files a/img/sprite/sprite.psd and b/img/sprite/sprite.psd differ
