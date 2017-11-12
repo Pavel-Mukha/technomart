@@ -412,3 +412,75 @@ table {
   .main-navigation__link:active {
     background-color: #1d2739;
     color: rgba(255, 255, 255, 0.4); }
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .features__item {
+    position: relative;
+    flex-basis: 300px;
+    min-width: 240px;
+    height: 123px;
+    background-color: rgba(0, 119, 33, 0.56); }
+  .features__item:not(:last-child) {
+    margin-right: 10px; }
+  .features__item:not(.features__ico) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-left: 20px; }
+  .features__item_yellow {
+    background-color: #f6b22d; }
+  .features__name {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px; }
+  .features__more {
+    cursor: pointer; }
+  .features__more_yellow {
+    background-color: #dda028;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease; }
+    .features__more_yellow:hover {
+      background-color: #c28c21; }
+    .features__more_yellow:active {
+      background-color: #ab7d24; }
+  .features__link {
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .features__ico {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat; }
+  .features__ico_materials {
+    width: 44px;
+    height: 65px;
+    background-position: -2px -148px;
+    margin-top: -32px;
+    margin-right: 43px; }
+  .features__ico_tools {
+    width: 75px;
+    height: 61px;
+    background-position: -2px -236px;
+    margin-top: -32px;
+    margin-right: 28px; }
+  .features__ico_technique {
+    width: 78px;
+    height: 62px;
+    background-position: -2px -320px;
+    margin-top: -31px;
+    margin-right: 31px; }
