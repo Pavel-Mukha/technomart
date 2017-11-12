@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="191ebadf-2997-400e-b090-2a85e94d488c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/blocks/categories/categories.scss" afterPath="$PROJECT_DIR$/sass/blocks/categories/categories.scss" />
     </list>
     <ignored path="technomart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -240,12 +238,12 @@
       <workItem from="1510299179882" duration="15277000" />
       <workItem from="1510328139370" duration="12697000" />
       <workItem from="1510390936168" duration="11080000" />
-      <workItem from="1510489234756" duration="6496000" />
+      <workItem from="1510489234756" duration="6701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52171000" />
+    <option name="totallyTimeSpent" value="52376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
