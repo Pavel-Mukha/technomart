@@ -23,6 +23,12 @@
   &__item_yellow{
     background-color: #f6b22d;
   }
+  &__item_blue{
+    background-color: #4aafde;
+  }
+  &__item_purple{
+    background-color: #cc79d1;
+  }
   &__name{
     font-size:24px;
     line-height:1.25;
@@ -41,6 +47,26 @@
     }
     &:active {
       background-color: #ab7d24;
+    }
+  }
+  &__more_blue{
+    background-color: #429dc7;
+    @include transition(background-color, 0.2s, ease);
+    &:hover{
+      background-color: #3981a3;
+    }
+    &:active {
+      background-color: #35728f;
+    }
+  }
+  &__more_purple{
+    background-color: #b76dbc;
+    @include transition(background-color, 0.2s, ease);
+    &:hover{
+      background-color: #9f5fa3;
+    }
+    &:active {
+      background-color: #8e5592;
     }
   }
   &__link{

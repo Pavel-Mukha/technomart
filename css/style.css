@@ -434,6 +434,10 @@ table {
     padding-left: 20px; }
   .features__item_yellow {
     background-color: #f6b22d; }
+  .features__item_blue {
+    background-color: #4aafde; }
+  .features__item_purple {
+    background-color: #cc79d1; }
   .features__name {
     font-size: 24px;
     line-height: 1.25;
@@ -453,6 +457,28 @@ table {
       background-color: #c28c21; }
     .features__more_yellow:active {
       background-color: #ab7d24; }
+  .features__more_blue {
+    background-color: #429dc7;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease; }
+    .features__more_blue:hover {
+      background-color: #3981a3; }
+    .features__more_blue:active {
+      background-color: #35728f; }
+  .features__more_purple {
+    background-color: #b76dbc;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease; }
+    .features__more_purple:hover {
+      background-color: #9f5fa3; }
+    .features__more_purple:active {
+      background-color: #8e5592; }
   .features__link {
     display: inline-block;
     padding: 10px;
