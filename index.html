@@ -48,16 +48,16 @@
         <div class="main-header__wrapper-info">
             <div class="main-header__info inner">
                 <div class="main-header__name">
-                    <p class="main-header__text">Интернет-магазин
+                    <h1 class="main-header__text">Интернет-магазин
                     строительных материалов
-                    и инструментов для ремонта</p>
+                    и инструментов для ремонта</h1>
                 </div>
                 <div class="main-header__contacts">
                     <div class="main-header__phone">
                        <span class="main-header__tel">+38 (0542) 25-00-00</span>
                     </div>
                     <div class="main-header__address">
-                        г. Сумы, ул. Воскресенская 1.
+                        <span>г. Сумы, ул. Воскресенская 1.</span>
                     </div>
                 </div>
                 <div class="main-header__user-block">
@@ -84,60 +84,115 @@
 
     <section class="categories inner">
         <div class="categories__item categories__item_yellow">
-            <div class="categories__name">Материалы</div>
+            <span class="products__new products__new-active"></span>
+            <div class="categories__name"><h2>Материалы</h2></div>
             <div class="categories__more categories__more_yellow"><a href="#" class="categories__link">на любой вкус</a></div>
             <span class="categories__ico categories__ico_materials"></span>
         </div>
         <div class="categories__item categories__item_blue">
-            <div class="categories__name">Инструмент</div>
+            <span class="products__new"></span>
+            <div class="categories__name"><h2>Инструмент</h2></div>
             <div class="categories__more categories__more_blue" ><a href="#" class="categories__link">НА ВСЕ СЛУЧАИ</a></div>
             <span class="categories__ico  categories__ico_tools"></span>
         </div>
         <div class="categories__item categories__item_purple">
-            <div class="categories__name">Техника</div>
+            <span class="products__new"></span>
+            <div class="categories__name"><h2>Техника</h2></div>
             <div class="categories__more categories__more_purple"><a href="#" class="categories__link">для стройки</a></div>
             <span class="categories__ico categories__ico_technique"></span>
         </div>
     </section>
     <section class="features inner">
-        <div class="slider">
-            <div class="slider__wrapper">
-                <input type="radio" class="slider__radio" name="control" value="0" id="btn-1" checked>
-                <input type="radio" class="slider__radio" name="control" value="1" id="btn-2">
-                <label for="btn-1" class="slider__radio-toggle slider__radio-toggle_1"></label>
-                <label for="btn-2" class="slider__radio-toggle slider__radio-toggle_2"></label>
-                <label for="btn-1" class="slider__control slider__control-left" id="arrow-1"></label>
-                <label for="btn-2" class="slider__control slider__control-right" id="arrow-2"></label>
-                <div class="slider__inner">
-                    <div class="slider__img" id="slide-1">
-                        <img src="img/slider/slide-1.jpg" alt="slide-1" width="620" height="266">
-                        <div class="slider__title">
-                            <div class="slider__name">Перфораторы</div>
-                            <div class="slider__description">Настроящие мужские игрушки</div>
-                        </div>
-                        <div class="slider__more"><a href="#" class="slider__link">ОТКРЫТЬ КАТАЛОГ</a></div>
+    <div class="slider">
+        <div class="slider__wrapper">
+            <input type="radio" class="slider__radio" name="control" value="0" id="btn-1" checked>
+            <input type="radio" class="slider__radio" name="control" value="1" id="btn-2">
+            <label for="btn-1" class="slider__radio-toggle slider__radio-toggle_1"></label>
+            <label for="btn-2" class="slider__radio-toggle slider__radio-toggle_2"></label>
+            <label for="btn-1" class="slider__control slider__control-left" id="arrow-1"></label>
+            <label for="btn-2" class="slider__control slider__control-right" id="arrow-2"></label>
+            <div class="slider__inner">
+                <div class="slider__img" id="slide-1">
+                    <img src="img/slider/slide-1.jpg" alt="slide-1" width="620" height="266">
+                    <div class="slider__title">
+                        <div class="slider__name"><h2>Перфораторы</h2></div>
+                        <div class="slider__description"><span>Настроящие мужские игрушки</span></div>
                     </div>
-                    <div class="slider__img" id="slide-2">
-                        <img src="img/slider/slide-2.jpg" alt="slide-2" width="620" height="266">
-                        <div class="slider__title">
-                            <div class="slider__name">Дрели</div>
-                            <div class="slider__description">Соседям на радость!</div>
-                        </div>
-                        <div class="slider__more"><a href="#" class="slider__link">ОТКРЫТЬ каталог</a></div>
+                    <div class="slider__more"><a href="#" class="global-link slider__link">ОТКРЫТЬ КАТАЛОГ</a></div>
+                </div>
+                <div class="slider__img" id="slide-2">
+                    <img src="img/slider/slide-2.jpg" alt="slide-2" width="620" height="266">
+                    <div class="slider__title">
+                        <div class="slider__name"><h2>Дрели</h2></div>
+                        <div class="slider__description"><span>Соседям на радость!</span></div>
                     </div>
+                    <div class="slider__more"><a href="#" class="global-link slider__link">ОТКРЫТЬ каталог</a></div>
                 </div>
             </div>
         </div>
-        <div class="features__items">
-            <div class="features__item features__item_green">
-                <div class="features__name categories__name">Скидки 50%</div>
-                <div class="features__more features__more_green"><a href="#" class="features__link categories__link">На 350 ТОВАРОВ</a></div>
-                <span class="features__ico categories__ico features__ico_basket"></span>
+    </div>
+    <div class="features__items">
+        <div class="features__item features__item_green">
+            <div class="features__name categories__name"><span>Скидки 50%</span></div>
+            <div class="features__more features__more_green"><a href="#" class="features__link categories__link">На 350 ТОВАРОВ</a></div>
+            <span class="features__ico categories__ico features__ico_basket"></span>
+        </div>
+        <div class="features__item features__item_yellow">
+            <div class="features__name categories__name"><span>Доставка</span></div>
+            <div class="features__more categories__more_yellow"><a href="#" class="features__link categories__link">бесплатно</a></div>
+            <span class="features__ico categories__ico features__ico_buss"></span>
+        </div>
+    </div>
+</section>
+    <section class="products inner">
+        <div class="products__header">
+            <div class="products__title">
+                <h3>Популярные товары:</h3>
             </div>
-            <div class="features__item features__item_yellow">
-                <div class="features__name categories__name">Доставка</div>
-                <div class="features__more categories__more_yellow"><a href="#" class="features__link categories__link">бесплатно</a></div>
-                <span class="features__ico categories__ico features__ico_buss"></span>
+            <div class="products__more">
+                <a href="#" class="products__link global-link">все поПулярные товары</a>
+            </div>
+        </div>
+        <div class="products__body">
+            <div class="products__item">
+                <span class="products__new"></span>
+                <span class="products__ico products__bosh-9000"></span>
+                <div class="products__name">
+                    <p>Перфоратор BOSCH
+                        BFG 9000</p>
+                </div>
+                <div class="products__old-price products__old-price-active"><span>32500 Р.</span></div>
+                <div class="products__price"><span>25500 Р.</span></div>
+            </div>
+            <div class="products__item">
+                <span class="products__new"></span>
+                <span class="products__ico products__bosh-3000"></span>
+                <div class="products__name">
+                    <p>Перфоратор BOSCH
+                        BFG 3000</p>
+                </div>
+                <div class="products__old-price products__old-price-active"><span>22500 Р.</span></div>
+                <div class="products__price"><span>15500 Р.</span></div>
+            </div>
+            <div class="products__item">
+                <span class="products__new"></span>
+                <span class="products__ico products__bosh-6000"></span>
+                <div class="products__name">
+                    <p>Перфоратор BOSCH
+                        BFG 6000</p>
+                </div>
+                <div class="products__old-price products__old-price-active"><span>30500 Р.</span></div>
+                <div class="products__price"><span>25500 Р.</span></div>
+            </div>
+            <div class="products__item">
+                <span class="products__new  products__new-active"></span>
+                <span class="products__ico products__bosh-2000"></span>
+                <div class="products__name">
+                    <p>Перфоратор BOSCH
+                        BFG 2000</p>
+                </div>
+                <div class="products__old-price"><span>32500 Р.</span></div>
+                <div class="products__price"><span>12500 Р.</span></div>
             </div>
         </div>
     </section>

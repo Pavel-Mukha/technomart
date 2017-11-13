@@ -552,7 +552,8 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 50px; }
   .features__items {
     flex-basis: 300px;
     display: flex;
@@ -563,7 +564,7 @@ table {
     flex-direction: column;
     align-items: flex-start;
     width: 300px;
-    height: 125px;
+    height: 123px;
     padding-top: 20px;
     padding-left: 20px; }
   .features__item:not(:last-child) {
@@ -691,27 +692,6 @@ table {
     left: 0;
     margin-left: 25px;
     margin-bottom: 20px; }
-  .slider__link {
-    display: inline-block;
-    font-size: 14px;
-    line-height: 1.28;
-    color: #ffffff;
-    padding: 12px 50px;
-    background-color: #ee3643;
-    text-decoration: none;
-    text-transform: uppercase; }
-    .slider__link:hover {
-      background-color: #d9323e;
-      color: rgba(255, 255, 255, 0.8); }
-    .slider__link:active {
-      -webkit-box-shadow: inset 0 3px 1px 0 #a02831;
-      -moz-box-shadow: inset 0 3px 1px 0 #a02831;
-      box-shadow: inset 0 3px 1px 0 #a02831;
-      -webkit-transform: translate(0, 1px);
-      -moz-transform: translate(0, 1px);
-      -ms-transform: translate(0, 1px);
-      -o-transform: translate(0, 1px);
-      transform: translate(0, 1px); }
   .slider__title {
     position: absolute;
     z-index: 2;
@@ -738,3 +718,119 @@ table {
     font-size: 18px;
     line-height: 1.33;
     color: #ffffff; }
+
+.global-link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #ffffff;
+  padding: 12px 50px;
+  background-color: #ee3643;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 3; }
+  .global-link:hover {
+    background-color: #d9323e;
+    color: rgba(255, 255, 255, 0.8); }
+  .global-link:active {
+    -webkit-box-shadow: inset 0 3px 1px 0 #a02831;
+    -moz-box-shadow: inset 0 3px 1px 0 #a02831;
+    box-shadow: inset 0 3px 1px 0 #a02831;
+    -webkit-transform: translate(0, 1px);
+    -moz-transform: translate(0, 1px);
+    -ms-transform: translate(0, 1px);
+    -o-transform: translate(0, 1px);
+    transform: translate(0, 1px); }
+
+.products {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; }
+  .products__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    margin-bottom: 20px;
+    background-color: #f7f3ec; }
+  .products__body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .products__item {
+    position: relative;
+    flex-basis: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 320px;
+    border: 1px solid #e5e5e5; }
+  .products__new {
+    position: absolute;
+    width: 60px;
+    height: 59px;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background: transparent url("../../../img/new-flag.png") no-repeat center;
+    display: none; }
+  .products__new-active {
+    display: block; }
+  .products__title {
+    font-size: 30px;
+    line-height: 1;
+    color: #32425c;
+    padding-left: 30px; }
+  .products__price {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 38px;
+    margin-bottom: 20px;
+    background-color: #ee3643;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; }
+    .products__price::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      right: -19px;
+      border: 19px solid #ffffff;
+      border-left-color: #ee3643; }
+  .products__old-price {
+    font-size: 17px;
+    line-height: 1;
+    color: #999999;
+    text-decoration: line-through;
+    visibility: hidden; }
+  .products__old-price-active {
+    visibility: visible; }
+  .products__name {
+    font-size: 18px;
+    line-height: 1.11;
+    font-weight: bold;
+    color: #000;
+    padding: 0 30px;
+    text-align: center; }
+  .products__bosh-9000 {
+    background: transparent url("../../../img/bosh-9000.jpg") no-repeat; }
+  .products__bosh-3000 {
+    background: transparent url("../../../img/bosh-3000.jpg") no-repeat; }
+  .products__bosh-6000 {
+    background: transparent url("../../../img/bosh-6000.jpg") no-repeat; }
+  .products__bosh-2000 {
+    background: transparent url("../../../img/bosh-2000.jpg") no-repeat; }
+  .products__ico {
+    width: 100%;
+    height: 175px;
+    background-position: center 20px; }
