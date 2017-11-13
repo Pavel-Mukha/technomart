@@ -19,8 +19,8 @@
 <body>
 <!--[if lte IE 9]>
 <p style="text-align:center; padding-top:100px; font: 30px/normal Arial, sans-serif; color: rgba(182, 2, 0, 0.87)">
-    Вы используете устаревшую версию браузера интернет-эксплорер 9 или ниже
-    обновите, пожалуйста ваш браузер до актуальной версии
+    Вы используете устаревшую версию браузера интернет-эксплорер 9 или ниже. Пожалуйста,
+    обновите ваш браузер до актуальной версии.
 </p>
 <![endif]-->
 
@@ -54,10 +54,10 @@
                 </div>
                 <div class="main-header__contacts">
                     <div class="main-header__phone">
-                       <span class="main-header__tel">+7 (812) 555-05-55</span>
+                       <span class="main-header__tel">+38 (0542) 25-00-00</span>
                     </div>
                     <div class="main-header__address">
-                        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                        г. Сумы, ул. Воскресенская 1.
                     </div>
                 </div>
                 <div class="main-header__user-block">
@@ -86,17 +86,59 @@
         <div class="categories__item categories__item_yellow">
             <div class="categories__name">Материалы</div>
             <div class="categories__more categories__more_yellow"><a href="#" class="categories__link">на любой вкус</a></div>
-            <span class="categories__ico categories__ico_size categories__ico_materials"></span>
+            <span class="categories__ico categories__ico_materials"></span>
         </div>
         <div class="categories__item categories__item_blue">
             <div class="categories__name">Инструмент</div>
             <div class="categories__more categories__more_blue" ><a href="#" class="categories__link">НА ВСЕ СЛУЧАИ</a></div>
-            <span class="categories__ico  categories__ico_tools categories__ico_size-tools"></span>
+            <span class="categories__ico  categories__ico_tools"></span>
         </div>
         <div class="categories__item categories__item_purple">
             <div class="categories__name">Техника</div>
             <div class="categories__more categories__more_purple"><a href="#" class="categories__link">для стройки</a></div>
-            <span class="categories__ico categories__ico_technique categories__ico_technique-size"></span>
+            <span class="categories__ico categories__ico_technique"></span>
+        </div>
+    </section>
+    <section class="features inner">
+        <div class="slider">
+            <div class="slider__wrapper">
+                <input type="radio" class="slider__radio" name="control" value="0" id="btn-1" checked>
+                <input type="radio" class="slider__radio" name="control" value="1" id="btn-2">
+                <label for="btn-1" class="slider__radio-toggle slider__radio-toggle_1"></label>
+                <label for="btn-2" class="slider__radio-toggle slider__radio-toggle_2"></label>
+                <label for="btn-1" class="slider__control slider__control-left" id="arrow-1"></label>
+                <label for="btn-2" class="slider__control slider__control-right" id="arrow-2"></label>
+                <div class="slider__inner">
+                    <div class="slider__img" id="slide-1">
+                        <img src="img/slider/slide-1.jpg" alt="slide-1" width="620" height="266">
+                        <div class="slider__title">
+                            <div class="slider__name">Перфораторы</div>
+                            <div class="slider__description">Настроящие мужские игрушки</div>
+                        </div>
+                        <div class="slider__more"><a href="#" class="slider__link">ОТКРЫТЬ КАТАЛОГ</a></div>
+                    </div>
+                    <div class="slider__img" id="slide-2">
+                        <img src="img/slider/slide-2.jpg" alt="slide-2" width="620" height="266">
+                        <div class="slider__title">
+                            <div class="slider__name">Дрели</div>
+                            <div class="slider__description">Соседям на радость!</div>
+                        </div>
+                        <div class="slider__more"><a href="#" class="slider__link">ОТКРЫТЬ каталог</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="features__items">
+            <div class="features__item features__item_green">
+                <div class="features__name categories__name">Скидки 50%</div>
+                <div class="features__more features__more_green"><a href="#" class="features__link categories__link">На 350 ТОВАРОВ</a></div>
+                <span class="features__ico categories__ico features__ico_basket"></span>
+            </div>
+            <div class="features__item features__item_yellow">
+                <div class="features__name categories__name">Доставка</div>
+                <div class="features__more categories__more_yellow"><a href="#" class="features__link categories__link">бесплатно</a></div>
+                <span class="features__ico categories__ico features__ico_buss"></span>
+            </div>
         </div>
     </section>
 

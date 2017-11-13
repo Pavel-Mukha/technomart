@@ -38,6 +38,9 @@
     &:hover {
       background-color: #ca2c37;
     }
+    &:active {
+      background-color: #ba2732;
+    }
   }
 
 
@@ -133,6 +136,9 @@
     &:hover{
       background-color: #212a3a;
     }
+    &:active{
+      background-color: #161d29;
+    }
 
   }
   &__bookmarks-href{
@@ -176,6 +182,9 @@
     @include transition(all, 0.2s, ease);
     &:hover{
       background-color: #212a3a;
+    }
+    &:active{
+      background-color: #161d29;
     }
   }
   &__basket-href{
@@ -221,6 +230,9 @@
     &:hover{
       background-color: #5fbb2d;
     }
+    &:active {
+      background-color: #518534;
+    }
   }
   &__order-href{
     display: flex;
@@ -263,7 +275,7 @@
     display: flex;
     flex-direction:column;
     width:270px;
-    min-width:220px;
+    min-width:240px;
   }
   &__phone {
     position: relative;
@@ -310,6 +322,10 @@
     margin-right: 10px;
     margin-bottom:10px;
     padding-left: 48px;
+    &:active {
+      @include box-shadow-i(inset, 0, 2px, 1px, 0, rgba(0,0,0, 0.1));
+      @include translate(0, 1px);
+    }
   }
   &__sign-ico{
     position: absolute;
@@ -325,12 +341,15 @@
     background: transparent url("../../../img/sprite/sprite.png")no-repeat -31px -110px;
     opacity:0.3;
   }
+  &__sign-up:active{
+    @include box-shadow-i(inset, 0, 2px, 1px, 0, rgba(0,0,0, 0.1));
+    @include translate(0, 1px);
+  }
   &__sign-in:hover &__sign-ico {
     opacity:1;
     @include transition(all, 0.2s, ease);
   }
   &__sign-up{
     margin-bottom: 10px;
-
   }
 }
