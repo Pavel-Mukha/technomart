@@ -117,7 +117,7 @@
     @include transition(all, 0.2s, linear);
   }
   &__item:hover{
-    @include box-shadow(0, 7px, 25px, 7px, rgba(41,52,73, 0.3));
+    @include box-shadow(0, 3px, 25px, 7px, rgba(41,52,73, 0.2));
     @include transition(all, 0.2s, ease);
   }
 }
@@ -146,6 +146,7 @@
     line-height: normal;
     color: #ffffff;
     text-transform: uppercase;
+    text-decoration: none;
     background-color: #63a63e;
     cursor: pointer;
     @include box-shadow(0, 3px, 1px, 0, #367315);
@@ -169,6 +170,7 @@
     color: #32425c;
     border:2px solid #63a63e;
     text-transform: uppercase;
+    text-decoration: none;
     cursor: pointer;
     @include border-radius(3px);
     &:hover{

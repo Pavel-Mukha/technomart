@@ -846,9 +846,9 @@ table {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear; }
   .products__item:hover {
-    -webkit-box-shadow: 0 7px 25px 7px rgba(41, 52, 73, 0.3);
-    -moz-box-shadow: 0 7px 25px 7px rgba(41, 52, 73, 0.3);
-    box-shadow: 0 7px 25px 7px rgba(41, 52, 73, 0.3);
+    -webkit-box-shadow: 0 3px 25px 7px rgba(41, 52, 73, 0.2);
+    -moz-box-shadow: 0 3px 25px 7px rgba(41, 52, 73, 0.2);
+    box-shadow: 0 3px 25px 7px rgba(41, 52, 73, 0.2);
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
@@ -878,6 +878,7 @@ table {
     line-height: normal;
     color: #ffffff;
     text-transform: uppercase;
+    text-decoration: none;
     background-color: #63a63e;
     cursor: pointer;
     -webkit-box-shadow: 0 3px 1px 0 #367315;
@@ -904,6 +905,7 @@ table {
     color: #32425c;
     border: 2px solid #63a63e;
     text-transform: uppercase;
+    text-decoration: none;
     cursor: pointer;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -927,3 +929,38 @@ table {
 
 .products__item:hover .purchase {
   opacity: 1; }
+
+.vendors {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px; }
+  .vendors__body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -20px; }
+  .vendors__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 145px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    margin-left: 20px; }
+    .vendors__item:hover {
+      -webkit-box-shadow: 0 0 25px 10px rgba(41, 52, 73, 0.2);
+      -moz-box-shadow: 0 0 25px 10px rgba(41, 52, 73, 0.2);
+      box-shadow: 0 0 25px 10px rgba(41, 52, 73, 0.2);
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease; }
+    .vendors__item:active {
+      -webkit-box-shadow: 0 0 10px 4px rgba(41, 52, 73, 0.2);
+      -moz-box-shadow: 0 0 10px 4px rgba(41, 52, 73, 0.2);
+      box-shadow: 0 0 10px 4px rgba(41, 52, 73, 0.2); }
+  .vendors__link:active {
+    opacity: 0.4; }
