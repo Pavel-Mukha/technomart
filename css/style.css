@@ -767,6 +767,7 @@ table {
     justify-content: space-between;
     align-items: center;
     height: 320px;
+    padding-top: 175px;
     border: 1px solid #e5e5e5; }
   .products__new {
     position: absolute;
@@ -831,6 +832,98 @@ table {
   .products__bosh-2000 {
     background: transparent url("../../../img/bosh-2000.jpg") no-repeat; }
   .products__ico {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 175px;
-    background-position: center 20px; }
+    background-position: center 20px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+  .products__item:hover {
+    -webkit-box-shadow: 0 7px 25px 7px rgba(41, 52, 73, 0.3);
+    -moz-box-shadow: 0 7px 25px 7px rgba(41, 52, 73, 0.3);
+    box-shadow: 0 7px 25px 7px rgba(41, 52, 73, 0.3);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
+
+.purchase {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 175px; }
+  .purchase__buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #63a63e;
+    cursor: pointer;
+    -webkit-box-shadow: 0 3px 1px 0 #367315;
+    -moz-box-shadow: 0 3px 1px 0 #367315;
+    box-shadow: 0 3px 1px 0 #367315;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+    .purchase__buy:hover {
+      background-color: #5fbb2d; }
+    .purchase__buy:active {
+      background-color: #518534;
+      -webkit-box-shadow: 0 0 0 0 transparent;
+      -moz-box-shadow: 0 0 0 0 transparent;
+      box-shadow: 0 0 0 0 transparent; }
+  .purchase__bookmarks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: normal;
+    color: #32425c;
+    border: 2px solid #63a63e;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+    .purchase__bookmarks:hover {
+      border-color: #32425c; }
+    .purchase__bookmarks:active {
+      border-color: #c1c6ce;
+      color: rgba(50, 66, 92, 0.3); }
+
+.purchase {
+  opacity: 0;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+
+.products__item:hover .products__ico {
+  opacity: 0; }
+
+.products__item:hover .purchase {
+  opacity: 1; }
