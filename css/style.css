@@ -1095,3 +1095,50 @@ table {
   -ms-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease; }
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 370px; }
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 540px;
+  margin-right: 20px; }
+  .company__name {
+    font-size: 30px;
+    line-height: 0.8;
+    color: #000;
+    text-transform: uppercase; }
+  .company__description {
+    font: 13px "PT Sans", sans-serif;
+    line-height: 1.84;
+    color: #000; }
+  .company__info {
+    margin-left: 35px; }
+  .company__item {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.11;
+    color: #000; }
+    .company__item::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 2px;
+      top: 50%;
+      left: -35px;
+      margin-top: -1px;
+      background-color: #fb565a; }
+  .company__item:last-child {
+    margin-bottom: 0; }
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px; }
