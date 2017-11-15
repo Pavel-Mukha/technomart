@@ -394,7 +394,7 @@ table {
     height: 17px;
     margin-top: 13px;
     margin-left: 15px;
-    background: transparent url("../../../img/sprite/sprite.png") no-repeat -31px -110px;
+    background: transparent url("../../../img/sprite/sprite.png") no-repeat -33px -107px;
     opacity: 0.3; }
   .main-header__sign-up:active {
     -webkit-box-shadow: inset 0 2px 1px 0 rgba(0, 0, 0, 0.1);
@@ -1100,7 +1100,8 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 370px; }
+  height: 370px;
+  margin-bottom: 85px; }
 
 .company {
   display: flex;
@@ -1142,3 +1143,143 @@ table {
   flex-direction: column;
   justify-content: space-between;
   width: 300px; }
+
+.menu-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -30px;
+  margin-bottom: 35px; }
+  .menu-1__item {
+    margin-left: 30px; }
+  .menu-1__link {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #f1f5f7;
+    text-decoration: none; }
+    .menu-1__link:hover {
+      text-decoration: underline; }
+    .menu-1__link:active {
+      color: rgba(241, 245, 247, 0.5); }
+
+.menu-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -7px; }
+  .menu-2__item {
+    margin-left: 30px; }
+  .menu-2__link {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #ffd180;
+    text-decoration: none; }
+    .menu-2__link:hover {
+      text-decoration: underline; }
+    .menu-2__link:active {
+      color: rgba(255, 209, 128, 0.5); }
+
+.footer {
+  background-color: #32425c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px; }
+  .footer__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; }
+  .footer__information {
+    width: 380px; }
+  .footer__logo {
+    width: 220px;
+    margin-bottom: 30px; }
+  .footer__address {
+    font-size: 18px;
+    line-height: 1.33;
+    color: #f1f5f7; }
+  .footer__navigation {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding-top: 40px; }
+  .footer__meta {
+    background-color: #293449;
+    display: flex;
+    height: 110px; }
+  .footer__meta-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; }
+  .footer__copy {
+    width: 230px;
+    font-size: 16px;
+    line-height: 1.125;
+    color: #ffffff; }
+  .footer__socials {
+    display: flex;
+    margin-left: -7px; }
+  .footer__social {
+    width: 39px;
+    height: 39px;
+    background: url("../../../img/sprite/sprite.png") no-repeat center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 7px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
+    .footer__social:active {
+      -webkit-transform: scale(0.8, 0.8);
+      -moz-transform: scale(0.8, 0.8);
+      -ms-transform: scale(0.8, 0.8);
+      -o-transform: scale(0.8, 0.8);
+      transform: scale(0.8, 0.8); }
+  .footer__social-vk {
+    background-position: -81px -1px; }
+    .footer__social-vk:hover {
+      background-position: -81px -54px; }
+  .footer__social-fb {
+    background-position: -81px -108px; }
+    .footer__social-fb:hover {
+      background-position: -81px -161px; }
+  .footer__social-inst {
+    background-position: -81px -215px; }
+    .footer__social-inst:hover {
+      background-position: -81px -269px; }
+  .footer__mails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: normal;
+    color: #ffffff; }
+  .footer__mail-link {
+    color: #ffd180;
+    text-decoration: none; }
+    .footer__mail-link:hover {
+      text-decoration: underline; }
+    .footer__mail-link:active {
+      text-decoration: none;
+      color: #ee3643; }
+  .footer__dev {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: normal;
+    color: #ffffff; }
+  .footer__dev-link {
+    font-size: 16px;
+    line-height: normal;
+    color: #ffd180;
+    text-decoration: none; }
+    .footer__dev-link:hover {
+      text-decoration: underline; }
+    .footer__dev-link:active {
+      text-decoration: none;
+      color: #ee3643; }
