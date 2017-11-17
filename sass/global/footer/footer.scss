@@ -19,6 +19,13 @@
       color: rgba(241,245, 247, 0.5);
     }
   }
+  &__link_active{
+    text-decoration: underline;
+    cursor: default;
+    &:active{
+      color: rgba(241,245, 247, 1);
+    }
+  }
 }
 .menu-2{
   display: flex;
@@ -38,6 +45,13 @@
     }
     &:active{
       color: rgba(255, 209, 128, 0.5);
+    }
+  }
+  &__link_active{
+    text-decoration: underline;
+    cursor: default;
+    &:active{
+      color: rgba(241,245, 247, 1);
     }
   }
 }
