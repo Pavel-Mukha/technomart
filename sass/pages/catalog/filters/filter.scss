@@ -1,6 +1,7 @@
 .filters{
   width:220px;
   margin-bottom:20px;
+  margin-right:20px;
   &__title{
     display: flex;
     align-items: center;
@@ -198,7 +199,7 @@
     width: 9px;
     height: 9px;
     margin-top: -5px;
-    margin-left: -4px;
+    margin-left: -5px;
     background-color: #c1c1c1;
     @include border-radius(50%);
   }

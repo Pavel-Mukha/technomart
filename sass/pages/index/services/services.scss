@@ -1,19 +1,18 @@
 .services{
   background-color: #f2f6f8;
-  margin-bottom:0;
+  margin-bottom:80px;
   overflow: hidden;
   &__wrapper{
     display: flex;
     flex-direction:column;
-    height:520px;
   }
   &__header{
-    height:200px;
     width:400px;
     display: flex;
     flex-direction:column;
     justify-content:center;
-    margin-bottom:40px;
+    padding-top:60px;
+    padding-bottom:60px;
   }
   &__title{
     margin-bottom:35px;
@@ -24,6 +23,7 @@
 
   }
   &__description{
+    margin-bottom:35px;
     font:13px "PT Sans", sans-serif;
     line-height:1.84;
     color: #000;
@@ -33,7 +33,7 @@
     flex-direction:row;
     justify-content:flex-start;
     align-items:flex-start;
-    height:320px;
+    margin-bottom: 100px;
     & input[type="radio"]{
       display: none;
     }

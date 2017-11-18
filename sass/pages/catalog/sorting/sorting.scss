@@ -22,7 +22,7 @@
 .types {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   width:100%;
   &__text {
     font:13px "PT Sans", sans-serif;

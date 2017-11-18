@@ -24,13 +24,13 @@
   }
   &__item{
     position: relative;
-    flex-basis:220px;
+    width:220px;
     display: flex;
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
     height:320px;
-    margin-left:20px;
+    margin-left:18px;
     margin-bottom:20px;
     padding-top:175px;
     border:1px solid #e5e5e5;
