@@ -2,940 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="191ebadf-2997-400e-b090-2a85e94d488c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/data/prefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/at-rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/autoprefixer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/brackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/browsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/declaration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-items.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/align-self.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/appearance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/background-size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/block-logical.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/border-radius.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/break-props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/cross-fade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/display-grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter-value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-basis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-direction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-flow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-grow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-shrink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-values.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex-wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/gradient.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-column-align.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-row-align.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/grid-template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-rendering.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/image-set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/inline-logical.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/intrinsic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/justify-content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/mask-border.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/pixelated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-decoration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/transform-decl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/writing-mode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/old-value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/prefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/processor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/resolution.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/supports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/lib/value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserslist/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserslist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserslist/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserslist/cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserslist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/browserslist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/agents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/browserVersions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/browsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/aac.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ac3-ec3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/addeventlistener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/alternate-stylesheet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ambient-light.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/apng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/arrow-functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/asmjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/async-functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/atob-btoa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/audio-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/audiotracks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/autofocus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/aux-click.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/background-attachment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/background-img-opts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/background-position-x-y.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/background-repeat-round-space.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/battery-status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/beacon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/beforeafterprint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/blobbuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/bloburls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/border-image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/border-radius.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/broadcastchannel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/brotli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/calc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/canvas-blending.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/canvas-text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ch-unit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/chacha20-poly1305.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/channel-messaging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/childnode-remove.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/classlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/client-hints-dpr-width-viewport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/clipboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/comparedocumentposition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/console-basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/console-time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/const.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/constraint-validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/contenteditable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/contentsecuritypolicy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/contentsecuritypolicy2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/cors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/credential-management.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/cryptography.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-animation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-any-link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-appearance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-apply-rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-at-counter-style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-backdrop-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-background-offsets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-backgroundblendmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-boxdecorationbreak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-boxshadow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-caret-color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-case-insensitive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-clip-path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-conic-gradients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-containment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-counters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-crisp-edges.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-cross-fade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-default-pseudo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-descendant-gtgt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-deviceadaptation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-dir-pseudo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-display-contents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-element-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-exclusions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-featurequeries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-filter-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-first-letter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-first-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-fixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-focus-ring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-focus-within.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-font-rendering-controls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-font-stretch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-gencontent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-gradients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hanging-punctuation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-has.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hyphenate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-hyphens.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-image-orientation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-image-set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-in-out-of-range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-indeterminate-pseudo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-initial-letter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-initial-value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-letter-spacing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-line-clamp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-logical-props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-marker-pseudo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-masks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-matches-pseudo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-media-interaction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-media-resolution.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-media-scripting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-mediaqueries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-mixblendmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-motion-paths.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-namespaces.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-not-sel-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-nth-child-of.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-opacity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-optional-pseudo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-overflow-anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-page-break.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-paged-media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-placeholder-shown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-read-only-write.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-rebeccapurple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-reflections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-regions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-repeating-gradients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-revert-value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-rrggbbaa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scroll-behavior.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-scrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sel2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sel3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-shapes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-snappoints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-supports-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-align-last.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-indent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-justify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-orientation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-text-spacing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-textshadow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-touch-action-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-touch-action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-transitions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-unicode-bidi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-unset-value.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-variables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-widows-orphans.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-writing-mode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css-zoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-boxsizing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-colors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-cursors-grab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-cursors-newer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-cursors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/css3-tabsize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/currentcolor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/custom-elements.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/custom-elementsv1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/customevent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/datalist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dataset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/datauri.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/details.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/deviceorientation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/devicepixelratio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dispatchevent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/document-currentscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/document-evaluate-xpath.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/document-execcommand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/documenthead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dom-manip-convenience.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dom-range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/domcontentloaded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/domfocusin-domfocusout-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dommatrix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/download.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/dragndrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/element-closest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/element-from-point.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/eme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/eot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es6-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es6-generators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es6-module-dynamic-import.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es6-module-nomodule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es6-module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/es6-number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/eventsource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fieldset-disabled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fileapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/filereader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/filereadersync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/filesystem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flac.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flexbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/flow-root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/focusin-focusout-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-feature.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-kerning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-loading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-size-adjust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-smooth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-unicode-range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-alternates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/font-variant-east-asian.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fontface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/form-attribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/form-submit-attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/form-validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/forms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/gamepad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/geolocation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/getboundingclientrect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/getcomputedstyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/getelementsbyclassname.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/getrandomvalues.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/hardwareconcurrency.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/hashchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/heif.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/hevc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/hidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/high-resolution-time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/html-media-capture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/html5semantic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/http-live-streaming.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/http2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/iframe-sandbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/iframe-seamless.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/iframe-srcdoc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/imagecapture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/img-naturalwidth-naturalheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/imports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/indeterminate-checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/indexeddb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/indexeddb2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/inline-block.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/innertext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-autocomplete-onoff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-datetime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-email-tel-url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-file-accept.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-file-directory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-file-multiple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-inputmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-minlength.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-pattern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/input-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/insert-adjacent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/insertadjacenthtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/internationalization.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/intersectionobserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/intrinsic-width.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/jpeg2000.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/jpegxr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/kerning-pairs-ligatures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/keyboardevent-charcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/keyboardevent-code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/keyboardevent-getmodifierstate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/keyboardevent-key.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/keyboardevent-location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/keyboardevent-which.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/lazyload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/let.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-icon-png.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-icon-svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-rel-dns-prefetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-rel-preconnect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-rel-prefetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-rel-preload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/link-rel-prerender.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/localecompare.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/matchesselector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/matchmedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mathml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/maxlength.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-attribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-fragments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/media-session-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediacapture-fromelement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediarecorder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mediasource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/meter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/midi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/minmaxwh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mp3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mpeg-dash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mpeg4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/multibackgrounds.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/multicolumn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mutation-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/mutationobserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/namevalue-storage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/nav-timing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/netinfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/node-contains.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/node-parentelement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/notifications.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/object-fit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/object-observe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/object-values.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/objectrtc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/offline-apps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/offscreencanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ogg-vorbis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ogv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ol-reversed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/once-event-listener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/online-status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/opus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/outline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/pad-start-end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/page-transition-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/pagevisibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/passive-event-listener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/path2d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/payment-request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/permissions-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/picture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ping.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/png-alpha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/pointer-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/pointer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/pointerlock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/promises.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/proximity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/publickeypinning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/push-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/queryselector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/readonly-attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/referrer-policy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/registerprotocolhandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/rel-noopener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/rel-noreferrer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/rellist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/rem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/requestanimationframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/requestidlecallback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/resizeobserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/resource-timing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/rest-parameters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/rtcpeerconnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/run-in.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/same-site-cookie-attribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/screen-orientation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/script-async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/script-defer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/scrollintoview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/scrollintoviewifneeded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sdch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/selection-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/serviceworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/setimmediate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sha-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/shadowdom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/shadowdomv1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sharedworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sni.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/spdy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/speech-recognition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/speech-synthesis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/spellcheck-attribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/sql-storage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/srcset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/stopimmediatepropagation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/streams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/stricttransportsecurity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/style-scoped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/subresource-integrity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-fonts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-img.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg-smil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tabindex-attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/template-literals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/testfeat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-decoration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-emphasis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-overflow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-size-adjust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/text-stroke.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/textcontent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/textencoder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/tls1-3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/token-binding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/transforms2d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/transforms3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/ttf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/typedarrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/u2f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/unhandledrejection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/upgradeinsecurerequests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/urlsearchparams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/use-strict.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/user-select-none.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/user-timing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/variable-fonts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/vibration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/videotracks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/viewport-units.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/wai-aria.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/wasm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/wav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/wbr-element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/web-animation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/web-app-manifest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/web-bluetooth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/web-share.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webgl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webgl2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/websockets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webusb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webvr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webvtt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/webworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/will-change.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/woff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/woff2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/word-break.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/wordwrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/x-doc-messaging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/x-frame-options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/xhr2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/xhtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/xhtmlsmil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/features/xml-serializer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/AZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BJ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/BZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DJ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/DZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/EG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ER.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ET.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FJ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GQ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/GY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IQ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/KZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/LY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ME.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MQ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/MZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/NZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/OM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/PY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/QA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/RW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ST.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/SZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TJ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/TZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/UZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VC.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/VU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/WF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/WS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/YE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/YT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/ZW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-an.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-as.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-na.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-oc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-sa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/data/regions/alt-ww.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/lib/statuses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/lib/supported.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/agents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/browserVersions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/browsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/feature.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/features.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/region.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/caniuse-lite/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/conversions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-convert/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/color-name/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/chromium-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-autoprefixer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-autoprefixer/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-autoprefixer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/gulp-autoprefixer/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/has-flag/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/has-flag/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/has-flag/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/has-flag/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/normalize-range/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/normalize-range/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/normalize-range/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/normalize-range/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/num2fraction/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/num2fraction/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/num2fraction/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/num2fraction/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/num2fraction/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/num2fraction/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/lib/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/lib/stringify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/lib/unit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/lib/walk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss-value-parser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/README.cn.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/docs/guidelines/plugin.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/docs/guidelines/runner.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/docs/source-maps.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/docs/syntax.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/input.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/result.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/vendor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/warn-once.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/warning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/ansi-styles/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/ansi-styles/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/ansi-styles/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/ansi-styles/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/chalk/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/chalk/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/chalk/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/chalk/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/chalk/templates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/chalk/types/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/dist/source-map.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/dist/source-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/dist/source-map.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/dist/source-map.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/array-set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/base64-vlq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/binary-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/mapping-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/quick-sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/source-map-consumer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/source-map-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/source-node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/source-map.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/source-map/source-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/node_modules/supports-color/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/media/media-768-960.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/media/media-max-650.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/media/media-768-960.scss" afterPath="$PROJECT_DIR$/sass/media/media-max-960.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.html" afterPath="$PROJECT_DIR$/catalog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/footer/footer.scss" afterPath="$PROJECT_DIR$/sass/global/footer/footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/header/header.scss" afterPath="$PROJECT_DIR$/sass/global/header/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/paginator/paginator.scss" afterPath="$PROJECT_DIR$/sass/global/paginator/paginator.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/global/products/products.scss" afterPath="$PROJECT_DIR$/sass/global/products/products.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/catalog/filters/filter.scss" afterPath="$PROJECT_DIR$/sass/pages/catalog/filters/filter.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/catalog/seo/ctalog-seo.scss" afterPath="$PROJECT_DIR$/sass/pages/catalog/seo/ctalog-seo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/catalog/sorting/sorting.scss" afterPath="$PROJECT_DIR$/sass/pages/catalog/sorting/sorting.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/index/about-us/company.scss" afterPath="$PROJECT_DIR$/sass/pages/index/about-us/company.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/index/categories/categories.scss" afterPath="$PROJECT_DIR$/sass/pages/index/categories/categories.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/index/features/features.scss" afterPath="$PROJECT_DIR$/sass/pages/index/features/features.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/pages/index/services/services.scss" afterPath="$PROJECT_DIR$/sass/pages/index/services/services.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
     </list>
     <ignored path="technomart.iws" />
@@ -957,138 +34,104 @@
     <favorites_list name="technomart" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.66944027">
+    <splitter split-orientation="horizontal" split-proportion="0.6414524">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.7135843">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/index.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-                      <folding>
-                        <element signature="e#902#1190#0" expanded="false" />
-                        <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <marker date="1510994216181" expanded="false" signature="822:873" placeholder="..." />
-                        <marker date="1510994216181" expanded="true" signature="831:861" placeholder="{...}" />
-                        <marker date="1510994216181" expanded="true" signature="931:1034" placeholder="..." />
-                        <marker date="1510994216181" expanded="false" signature="1035:1176" placeholder="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="catalog.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/catalog.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-                      <folding>
-                        <element signature="e#890#1178#0" expanded="false" />
-                        <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <element signature="n#div#0;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#1;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#2;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <marker date="1510994216200" expanded="true" signature="822:861" placeholder="..." />
-                        <marker date="1510994216200" expanded="true" signature="831:853" placeholder="{...}" />
-                        <marker date="1510994216200" expanded="false" signature="919:1022" placeholder="..." />
-                        <marker date="1510994216200" expanded="true" signature="1023:1164" placeholder="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/index.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="17">
-                      <caret line="370" column="9" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
-                      <folding>
-                        <element signature="e#902#1190#0" expanded="false" />
-                        <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                        <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                        <marker date="1510994216181" expanded="false" signature="822:873" placeholder="..." />
-                        <marker date="1510994216181" expanded="true" signature="831:861" placeholder="{...}" />
-                        <marker date="1510994216181" expanded="true" signature="931:1034" placeholder="..." />
-                        <marker date="1510994216181" expanded="false" signature="1035:1176" placeholder="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="420" column="0" selection-start-line="420" selection-start-column="0" selection-end-line="421" selection-end-column="57" />
+                  <folding>
+                    <element signature="e#901#1189#0" expanded="false" />
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <marker date="1511101793791" expanded="false" signature="821:872" placeholder="..." />
+                    <marker date="1511101793791" expanded="true" signature="830:860" placeholder="{...}" />
+                    <marker date="1511101793791" expanded="true" signature="930:1033" placeholder="..." />
+                    <marker date="1511101793791" expanded="false" signature="1034:1175" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="catalog.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/catalog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="461" column="57" selection-start-line="461" selection-start-column="57" selection-end-line="461" selection-end-column="57" />
+                  <folding>
+                    <element signature="e#889#1177#0" expanded="false" />
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <marker date="1511172989716" expanded="true" signature="821:860" placeholder="..." />
+                    <marker date="1511172989716" expanded="true" signature="830:852" placeholder="{...}" />
+                    <marker date="1511172989716" expanded="false" signature="918:1021" placeholder="..." />
+                    <marker date="1511172989716" expanded="true" signature="1022:1163" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+                <state relative-caret-position="493">
+                  <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="media-768-960.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sass/media/media-768-960.scss">
+          <file leaf-file-name="media-max-960.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/media/media-max-960.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1853">
-                  <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+                <state relative-caret-position="561">
+                  <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="globals.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/global/globals/globals.scss">
+          <file leaf-file-name="media-max-500.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/media/media-max-500.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="935">
-                  <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+                <state relative-caret-position="523">
+                  <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
+          <file leaf-file-name="media-max-650.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/media/media-max-650.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30124">
-                  <caret line="1779" column="0" selection-start-line="1779" selection-start-column="0" selection-end-line="1779" selection-end-column="0" />
-                  <folding>
-                    <marker date="1510993025077" expanded="true" signature="8795:8889" placeholder="{...}" />
-                    <marker date="1510993025077" expanded="true" signature="12328:12358" placeholder="{...}" />
-                    <marker date="1510993025077" expanded="true" signature="12519:12525" placeholder="{...}" />
-                    <marker date="1510993025077" expanded="true" signature="16877:16911" placeholder="{...}" />
-                    <marker date="1510993025077" expanded="true" signature="17289:17549" placeholder="{...}" />
-                    <marker date="1510993025077" expanded="true" signature="30507:30585" placeholder="{...}" />
-                    <marker date="1510993025077" expanded="true" signature="44771:44845" placeholder="{...}" />
-                  </folding>
+                <state relative-caret-position="119">
+                  <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -1101,6 +144,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -1110,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/_icons_template.scss" />
         <option value="$PROJECT_DIR$/sass/blocks/header.sass" />
         <option value="$PROJECT_DIR$/sass/blocks/globals.scss" />
         <option value="$PROJECT_DIR$/sass/blocks/button.scss" />
@@ -1138,23 +181,29 @@
         <option value="$PROJECT_DIR$/sass/blocks/products/products.scss" />
         <option value="$PROJECT_DIR$/sass/pages/catalog/globals/globals.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/sass/global/products/products.scss" />
-        <option value="$PROJECT_DIR$/sass/pages/index/about-us/company.scss" />
-        <option value="$PROJECT_DIR$/sass/pages/index/features/features.scss" />
-        <option value="$PROJECT_DIR$/sass/pages/index/categories/categories.scss" />
         <option value="$PROJECT_DIR$/sass/global/globals/globals.scss" />
-        <option value="$PROJECT_DIR$/sass/pages/index/services/services.scss" />
         <option value="$PROJECT_DIR$/sass/global/footer/footer.scss" />
-        <option value="$PROJECT_DIR$/sass/global/header/header.scss" />
         <option value="$PROJECT_DIR$/sass/pages/catalog/catalog-content/catalog.scss" />
         <option value="$PROJECT_DIR$/sass/pages/catalog/sorting/sorting.scss" />
         <option value="$PROJECT_DIR$/sass/pages/catalog/filters/filter.scss" />
         <option value="$PROJECT_DIR$/sass/global/paginator/paginator.scss" />
         <option value="$PROJECT_DIR$/sass/pages/catalog/seo/ctalog-seo.scss" />
         <option value="$PROJECT_DIR$/sass/media/media-768-960.scss" />
+        <option value="$PROJECT_DIR$/sass/pages/index/about-us/company.scss" />
+        <option value="$PROJECT_DIR$/sass/adaptive/adaptive.scss" />
+        <option value="$PROJECT_DIR$/js/menu.js" />
+        <option value="$PROJECT_DIR$/sass/pages/index/categories/categories.scss" />
+        <option value="$PROJECT_DIR$/sass/global/products/products.scss" />
+        <option value="$PROJECT_DIR$/sass/pages/index/features/features.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/pages/index/services/services.scss" />
+        <option value="$PROJECT_DIR$/sass/media/media-max-960.scss" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/sass/global/header/header.scss" />
+        <option value="$PROJECT_DIR$/sass/media/media-max-650.scss" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/sass/media/media-max-768.scss" />
+        <option value="$PROJECT_DIR$/sass/media/media-max-500.scss" />
         <option value="$PROJECT_DIR$/catalog.html" />
       </list>
     </option>
@@ -1186,7 +235,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1199,30 +248,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technomart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technomart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technomart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -1299,18 +325,21 @@
       <workItem from="1510908913985" duration="11789000" />
       <workItem from="1510935153572" duration="1240000" />
       <workItem from="1510938432731" duration="10237000" />
-      <workItem from="1510992340139" duration="1409000" />
+      <workItem from="1510992340139" duration="16918000" />
+      <workItem from="1511095094390" duration="13147000" />
+      <workItem from="1511168047293" duration="2795000" />
+      <workItem from="1511171113196" duration="983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163133000" />
+    <option name="totallyTimeSpent" value="195567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.071104385" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16084976" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1364,56 +393,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/globals/globals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/mixins/mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#902#1190#0" expanded="false" />
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1510994216181" expanded="false" signature="822:873" placeholder="..." />
-            <marker date="1510994216181" expanded="true" signature="831:861" placeholder="{...}" />
-            <marker date="1510994216181" expanded="true" signature="931:1034" placeholder="..." />
-            <marker date="1510994216181" expanded="false" signature="1035:1176" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1426,13 +405,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510993025077" expanded="true" signature="8795:8889" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="12328:12358" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="12519:12525" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="16877:16911" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="17289:17549" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="30507:30585" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="44771:44845" placeholder="{...}" />
+            <marker date="1511172830902" expanded="true" signature="2341:2347" placeholder="{...}" />
+            <marker date="1511172830902" expanded="true" signature="2414:3017" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1457,18 +431,21 @@
         <state relative-caret-position="289">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#902#1190#0" expanded="false" />
+            <element signature="e#901#1189#0" expanded="false" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1510994216181" expanded="false" signature="822:873" placeholder="..." />
-            <marker date="1510994216181" expanded="true" signature="831:861" placeholder="{...}" />
-            <marker date="1510994216181" expanded="true" signature="931:1034" placeholder="..." />
-            <marker date="1510994216181" expanded="false" signature="1035:1176" placeholder="..." />
+            <element signature="n#div#1;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1511101793791" expanded="false" signature="821:872" placeholder="..." />
+            <marker date="1511101793791" expanded="true" signature="830:860" placeholder="{...}" />
+            <marker date="1511101793791" expanded="true" signature="930:1033" placeholder="..." />
+            <marker date="1511101793791" expanded="false" signature="1034:1175" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1485,13 +462,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510993025077" expanded="true" signature="8795:8889" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="12328:12358" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="12519:12525" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="16877:16911" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="17289:17549" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="30507:30585" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="44771:44845" placeholder="{...}" />
+            <marker date="1511172830902" expanded="true" signature="2341:2347" placeholder="{...}" />
+            <marker date="1511172830902" expanded="true" signature="2414:3017" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1543,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/header/header-navigatin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1592,23 +557,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42789">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/catalog-content/catalog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/filters/filter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="201" column="19" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/paginator/paginator.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/sorting/sorting.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/seo/ctalog-seo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/globals/globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/adaptive/adaptive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/header/header-navigatin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/index/vendors/vendors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/products/products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/index/services/services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="15" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sass/pages/index/about-us/company.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30124">
-          <caret line="1779" column="0" selection-start-line="1779" selection-start-column="0" selection-end-line="1779" selection-end-column="0" />
-          <folding>
-            <marker date="1510993025077" expanded="true" signature="8795:8889" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="12328:12358" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="12519:12525" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="16877:16911" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="17289:17549" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="30507:30585" placeholder="{...}" />
-            <marker date="1510993025077" expanded="true" signature="44771:44845" placeholder="{...}" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/media/media-max-960.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/global/footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/pages/index/categories/categories.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1619,154 +689,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/globals/globals.scss">
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="493">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/header/header.scss">
+    <entry file="file://$PROJECT_DIR$/sass/media/media-max-650.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="320" column="14" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/media/media-max-500.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/media/media-max-768.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="342" column="20" selection-start-line="342" selection-start-column="4" selection-end-line="342" selection-end-column="20" />
+          <folding>
+            <element signature="e#53#77#0" expanded="false" />
+            <element signature="e#91#608#0" expanded="false" />
+            <element signature="e#646#4579#0" expanded="false" />
+            <element signature="e#4625#5404#0" expanded="false" />
+            <element signature="e#5953#5977#0" expanded="false" />
+            <element signature="e#9164#9398#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/pages/index/features/features.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+        <state relative-caret-position="152">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#1159#3668#0" expanded="false" />
+            <element signature="e#3682#4075#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/index/categories/categories.scss">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/products/products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/index/vendors/vendors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" selection-start-line="7" selection-start-column="1" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/index/services/services.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/index/about-us/company.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/footer/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/catalog-content/catalog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/filters/filter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3417">
-          <caret line="201" column="19" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/global/paginator/paginator.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/sorting/sorting.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/pages/catalog/seo/ctalog-seo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/media/media-768-960.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="4995">
+          <caret line="2340" column="0" selection-start-line="2340" selection-start-column="0" selection-end-line="2340" selection-end-column="0" />
+          <folding>
+            <marker date="1511172830902" expanded="true" signature="2341:2347" placeholder="{...}" />
+            <marker date="1511172830902" expanded="true" signature="2414:3017" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="357">
+          <caret line="420" column="0" selection-start-line="420" selection-start-column="0" selection-end-line="421" selection-end-column="57" />
           <folding>
-            <element signature="e#902#1190#0" expanded="false" />
+            <element signature="e#901#1189#0" expanded="false" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1510994216181" expanded="false" signature="822:873" placeholder="..." />
-            <marker date="1510994216181" expanded="true" signature="831:861" placeholder="{...}" />
-            <marker date="1510994216181" expanded="true" signature="931:1034" placeholder="..." />
-            <marker date="1510994216181" expanded="false" signature="1035:1176" placeholder="..." />
+            <element signature="n#div#1;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1511101793791" expanded="false" signature="821:872" placeholder="..." />
+            <marker date="1511101793791" expanded="true" signature="830:860" placeholder="{...}" />
+            <marker date="1511101793791" expanded="true" signature="930:1033" placeholder="..." />
+            <marker date="1511101793791" expanded="false" signature="1034:1175" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="425">
+          <caret line="461" column="57" selection-start-line="461" selection-start-column="57" selection-end-line="461" selection-end-column="57" />
           <folding>
-            <element signature="e#890#1178#0" expanded="false" />
+            <element signature="e#889#1177#0" expanded="false" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1777,10 +793,10 @@
             <element signature="n#div#1;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1510994216200" expanded="true" signature="822:861" placeholder="..." />
-            <marker date="1510994216200" expanded="true" signature="831:853" placeholder="{...}" />
-            <marker date="1510994216200" expanded="false" signature="919:1022" placeholder="..." />
-            <marker date="1510994216200" expanded="true" signature="1023:1164" placeholder="..." />
+            <marker date="1511172989716" expanded="true" signature="821:860" placeholder="..." />
+            <marker date="1511172989716" expanded="true" signature="830:852" placeholder="{...}" />
+            <marker date="1511172989716" expanded="false" signature="918:1021" placeholder="..." />
+            <marker date="1511172989716" expanded="true" signature="1022:1163" placeholder="..." />
           </folding>
         </state>
       </provider>

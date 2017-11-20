@@ -21,10 +21,16 @@
 @import "pages/catalog/catalog-content/catalog";
 @import "global/paginator/paginator";
 @import "pages/catalog/seo/ctalog-seo";
+@import "adaptive/adaptive";
 
 
 
   /* media queries */
-@import "media/media-768-960";
+@import "media/media-max-960";
+@import "media/media-max-768";
+@import "media/media-max-650";
+@import "media/media-max-500";
+
+
 
 

@@ -16,11 +16,12 @@
     align-items:flex-start;
     width:300px;
     height:123px;
+    margin-bottom:20px;
     padding-top: 20px;
     padding-left: 20px;
   }
-  &__item:not(:last-child){
-    margin-bottom:20px;
+  &__item:last-child{
+    margin-bottom:0px;
   }
   &__item_green{
     background-color: #85d179;

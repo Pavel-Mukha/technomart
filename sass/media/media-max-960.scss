@@ -12,13 +12,9 @@
     &__items{
       flex-direction:row;
       justify-content:space-between;
-      margin-left:-10px;
     }
     &__item{
       margin-right:20px;
-    }
-    &__item:last-child{
-      margin-right:0;
     }
 }
 .products{

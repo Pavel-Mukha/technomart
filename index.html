@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!--[if lte IE 9]><style>.wrapper{
         display: none;
     }
@@ -81,8 +81,46 @@
             </div>
         </div>
     </header>
-
-
+    <section class="adaptive-header">
+        <div class="adaptive-header__status-bar">
+            <div class="adaptive-header__logo"><a>ТЕХНОМАРТ</a></div>
+            <div class="touch-menu">
+                <span class="touch-menu__indicator"></span>
+                <span class="touch-menu__indicator"></span>
+                <span class="touch-menu__indicator"></span>
+            </div>
+        </div>
+        <div class="adaptive-navigation">
+            <ul class="adaptive-navigation__list">
+                <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
+                        <div class="adaptive-header__search">
+                            <form action="#"  method="get">
+                                <div class="adaptive-header__form">
+                                    <input type="text" class="adaptive-header__field" name="search-form" placeholder="Поиск:">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link ">Главная</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-company">Компания</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="catalog.html">Каталог</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#">Новости</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-special">Спецпредложения</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-delivery">Доставка</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-contacts">Контакты</a></li>
+                <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
+                    <div class="adaptive-header__bookmarks"><a class="adaptive-header__bookmarks-href" href="#">Закладки: 0</a></div>
+                </div></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link">
+                    <div class="adaptive-header__basket"><div class="adaptive-header__basket-href" href="#anchor-delivery">Корзина: 0</div></div>
+                </a></li>
+                <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
+                    <div class="adaptive-header__order"><a class="adaptive-header__order-href" href="#">Оформить заказ</a></div>
+                </div></li>
+            </ul>
+        </div>
+    </section>
     <section class="categories inner">
         <div class="categories__item categories__item_yellow">
             <span class="products__new products__new-active"></span>
@@ -212,6 +250,9 @@
                 <div class="products__price"><span>12500 Р.</span></div>
             </div>
         </div>
+        <div class="products__more-adaptive">
+            <a href="#" class="products__link-adaptive global-link">все поПулярные товары</a>
+        </div>
     </section>
     <section class="vendors inner">
         <div class="vendors__header products__header">
@@ -231,6 +272,9 @@
             <div class="vendors__item"><a href="#" class="vendors__link"><img src="img/lg.jpg" alt=""></a></div>
             <div class="vendors__item"><a href="#" class="vendors__link"><img src="img/aeg.jpg" alt=""></a></div>
             <div class="vendors__item"><a href="#" class="vendors__link"><img src="img/metabo.jpg" alt=""></a></div>
+        </div>
+        <div class="vendors__more-adaptive">
+            <a href="#" class="vendors__link-adaptive products__link-adaptive global-link">все поПулярные производители</a>
         </div>
     </section>
     <section class="services">
@@ -266,7 +310,9 @@
                             поднимая его на ваш этаж!</p>
                         </div>
                     </div>
-                    <div id="guaranty" class="services__more-wrapper">
+                    <!--для определения размера блока контента, нужно добавить в самый большой блок-->
+                    <!--класс с именем - "services__more-wrapper_position-static" для телефонной версии-->
+                    <div id="guaranty" class="services__more-wrapper services__more-wrapper_position-static">
                         <span class="services__bg-image services__bg-image_guaranty"></span>
                         <div class="services__name">
                             <span>Гарантия</span>
@@ -371,6 +417,9 @@
     </footer>
 
 </div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
 
 </body>
 </html>

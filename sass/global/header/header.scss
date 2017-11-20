@@ -13,7 +13,7 @@
     height:45px;
   }
   &__wrapper-logo-search{
-    flex-basis:490px;
+    width:490px;
     display: flex;
   }
 
@@ -22,7 +22,7 @@
 
 
   &__logo {
-    flex-basis:220px;
+    width:220px;
     display: flex;
     justify-content:center;
     align-items:center;
