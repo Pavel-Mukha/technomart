@@ -49,7 +49,7 @@
       color: #ffffff;
       text-transform: uppercase;
       background-color: #ee3643;
-      @include box-shadow(0, 5px, 0, 0, #b52933);
+      box-shadow: 0 5px 0 0 #b52933;
       @include transition(background-color, 0.3s, ease);
       cursor: default;
       &:hover {
@@ -464,6 +464,97 @@
     flex-wrap: wrap;
   }
 
+  .breadcrumbs {
+    height:30px;
+    &__list{
+      margin-left:-20px;
+    }
+    &__item{
+      margin-left:20px;
+    }
+    &__link::after{
+      right:-12px;
+      }
+    }
+  .catalog-title{
+    &__name{
+      height:40px;
+      font-size:28px;
+      margin-bottom:15px;
+    }
+  }
+  .catalog-wrapper{
+    position: relative;
+    flex-direction:column;
+  }
+  .content-wrapper{
+    width:100%;
+  }
+  .filters {
+    position: absolute;
+    width:300px;
+    left:-350px;
+    top:-10px;
+    padding:10px;
+    z-index: 11;
+    background-color: #fff;
+    box-shadow: 0 0 40px 15px rgba(0,0,0, 0.3);
+    transition: all 0.5s ease;
+    &__title{
+      //height:40px;
+    }
+    &__title_adaptive{
+      margin-bottom:10px;
+      cursor: pointer;
+      &:active {
+        background-color: darken(#f7f3ec, 10%);
+      }
+    }
+    &__close-wrapper{
+      display: none;
+      position: absolute;
+      top: 0;
+      right:-30px;
+      width:18px;
+      height: 18px;
+      cursor: pointer;
+    }
+    &__close{
+      position: absolute;
+      top: 8px;
+      right: -1px;
+      width: 20px;
+      height:3px;
+      background-color: #ee3643;
+      z-index:12;
+      &_left{
+        transform: rotate(45deg);
+      }
+      &_right{
+        transform: rotate(-45deg);
+      }
+    }
+    &__close-wrapper.show{
+      display: block;
+    }
+  }
+  .filters.active{
+    left:10px;
+  }
+  .selection-prices__price-line{
+    width:85%;
+  }
+  .sorting{
+    display: none;
+  }
+  .catalog {
+    margin-bottom:0;
+    margin-left:0;
+  }
+  .paginator {
+    justify-content:center;
+    margin-bottom:20px;
+  }
 
   /* end */
 }
@@ -487,5 +578,9 @@
   .products__more-adaptive{
     display: none;
   }
-
+  .filters {
+    &__title_adaptive{
+      display: none;
+    }
+  }
 }

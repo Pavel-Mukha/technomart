@@ -101,13 +101,13 @@
                     </div>
                 </div>
                 </li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link ">Главная</a></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-company">Компания</a></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="catalog.html">Каталог</a></li>
+                <li class="adaptive-navigation__item"><a href="index.html" class="adaptive-navigation__link ">Главная</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="index.html#anchor-company">Компания</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link">Каталог</a></li>
                 <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#">Новости</a></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-special">Спецпредложения</a></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-delivery">Доставка</a></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#anchor-contacts">Контакты</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="index.html#anchor-special">Спецпредложения</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="index.html#anchor-delivery">Доставка</a></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="index.html#anchor-contacts">Контакты</a></li>
                 <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
                     <div class="adaptive-header__bookmarks"><a class="adaptive-header__bookmarks-href" href="#">Закладки: 0</a></div>
                 </div></li>
@@ -122,10 +122,18 @@
     </section>
     <div class="breadcrumbs inner">
         <ul class="breadcrumbs__list">
-            <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link breadcrumbs__link-ico"></a></li>
-            <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Каталог</a></li>
-            <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Инструмент</a></li>
-            <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link_active">Перфораторы</a></li>
+            <li class="breadcrumbs__item">
+                <a href="index.html" class="breadcrumbs__link breadcrumbs__link-ico"></a>
+            </li>
+            <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">Каталог</a>
+            </li>
+            <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">Инструмент</a>
+            </li>
+            <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link breadcrumbs__link_active">Перфораторы</a>
+            </li>
         </ul>
     </div>
     <div class="catalog-title inner">
@@ -133,9 +141,14 @@
     </div>
 
     <div class="catalog-wrapper inner">
+        <div class="filters__title open-filters filters__title_adaptive"><span>Показать фильтр</span></div>
         <section class="filters">
+            <div class="filters__close-wrapper open-filters">
+                <span class="filters__close filters__close_left"></span>
+                <span class="filters__close filters__close_right"></span>
+            </div>
             <div class="filters__header">
-                    <div class="filters__title"><span>ФИЛЬТР:</span></div>
+                <div class="filters__title"><span>ФИЛЬТР:</span></div>
                     <div class="filters__name"><span>ЦЕНА:</span></div>
                     <div class="selection-prices">
                         <div class="selection-prices__element">
@@ -460,5 +473,7 @@
 </div>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/filters.js"></script>
 </body>
 </html>
