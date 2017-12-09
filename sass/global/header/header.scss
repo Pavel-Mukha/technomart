@@ -74,7 +74,7 @@
     outline:none;
     border:none;
     background-color: #293449;
-    @include placeholder(#fff);
+    @include placeholder( #fff);
     @include transition(all, 0.2s, ease);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

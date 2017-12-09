@@ -10,6 +10,14 @@
   &::-moz-placeholder {color:$color;}
   &:-ms-input-placeholder {color:$color;}
 }
+@mixin placeholder_font-size ($fz) {
+  &::-webkit-input-placeholder {font-size:$fz;}
+  &:-moz-placeholder {font-size:$fz;}
+  &::-moz-placeholder {font-size:$fz;}
+  &:-ms-input-placeholder {font-size:$fz;}
+}
+
+
 
 /*transition*/
 

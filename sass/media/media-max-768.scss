@@ -209,6 +209,7 @@
 
   .adaptive-navigation{
     display: none;
+    //overflow: hidden;
     &__list{
       display: flex;
       flex-direction:column;
