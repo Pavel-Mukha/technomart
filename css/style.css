@@ -1538,6 +1538,9 @@ table {
   line-height: 1.125;
   color: #444; }
 
+.manufacture__label {
+  cursor: pointer; }
+
 .manufacture__item {
   position: relative;
   font: 15px "PT Sans", sans-serif;
@@ -1572,6 +1575,8 @@ table {
 
 .power {
   margin-bottom: 75px; }
+  .power__label {
+    cursor: pointer; }
   .power__indicator {
     position: absolute;
     left: 0;
@@ -1590,7 +1595,7 @@ table {
     width: 9px;
     height: 9px;
     margin-top: -5px;
-    margin-left: -5px;
+    margin-left: -4px;
     background-color: #c1c1c1;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
