@@ -51,8 +51,6 @@ var regTextPassword = document.querySelector(".registration__text_checker-passwo
 var regTextFields = document.querySelector(".registration__text_checker-fields");
 var regTextEmail = document.querySelector(".registration__text_checker-email");
 
-console.log(registrationForm.elements.registrationLastName);
-
 regSubmit.addEventListener('click', fieldsCheck);
 
 

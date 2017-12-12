@@ -12,10 +12,10 @@ function slowShowModal(item, zIndex) {
         item.style.opacity = opacity.toFixed(1) + " ";
     },30);
 }
-function modalShow(e, opener, closer) {
+    function modalShow(e, opener, closer) {
     e.preventDefault();
-    slowShowModal(opener, 21);
-    closer.addEventListener('click', function () {
+    slowShowModal(opener, 21); //opener, z-index
+    closer.addEventListener('click', function (e) {
         modalCloseClickTarget(e, opener); //добавить хендлер на закрытие по клику на крестик
     });
     slowShowModal(modalBackground);
@@ -42,7 +42,6 @@ function modalCloseKey(event, opener) {
         modalBackground.removeAttribute('style');
     }
 }
-
 var contactUs = document.querySelector(".contacts__link");
 var writeUs = document.querySelector(".write-us");
 var modalBackground = document.querySelector(".modal-background");
@@ -55,19 +54,23 @@ var registrationModal = document.querySelector(".registration");
 var registrationModalCloser = document.querySelector(".registration__close");
 var loginRegistrationBtn = document.querySelector(".login__registration-btn");
 
-contactUs.addEventListener('click', function(){
-    modalShow(event, writeUs, writeUsClose); //event, opener, closer
-});
-loginButton.addEventListener('click',function () {
+if(contactUs) {
+    contactUs.addEventListener('click', function (event) {
+        modalShow(event, writeUs, writeUsClose); //event, opener, closer
+    });
+}
+
+loginButton.addEventListener('click',function (event) {
     modalShow(event, loginModal, loginModalCloser); //event, opener, closer
 });
-registrationButton.addEventListener('click',function () {
+registrationButton.addEventListener('click',function (event) {
     modalShow(event, registrationModal, registrationModalCloser); //event, opener, closer
 });
-loginRegistrationBtn.addEventListener('click', function () {
+loginRegistrationBtn.addEventListener('click', function (event) {
     modalShow(event, registrationModal, registrationModalCloser); //event, opener, closer
     loginModal.removeAttribute("style");
 });
+// alert("work");
 
 
 

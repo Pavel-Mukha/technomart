@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!--[if lte IE 9]><style>.wrapper{
     display: none;
 }
@@ -471,8 +471,85 @@
         </div>
     </footer>
 </div>
+<div class="write-us">
+    <span class="write-us__close"></span>
+    <form action="#" class="write-us__form" name="writeUs" enctype="application/x-www-form-urlencoded">
+        <div class="write-us__header">
+            <div class="write-us__inner">
+                <span class="write-us__title">Ваше имя:</span>
+                <input type="text" class="write-us__field" placeholder="Представьтесь, пожалуйста" required>
+            </div>
+            <div class="write-us__inner">
+                <span class="write-us__title">Ваш e-mail:</span>
+                <input type="email" class="write-us__field" placeholder="Для отправки ответа" required>
+            </div>
+        </div>
+        <div class="write-us__footer">
+            <label for="textArea" class="write-us__title">Текст письма:</label>
+            <textarea id="textArea" name="textArea" cols="30" rows="10" class="write-us__message" placeholder="В свободной форме" required></textarea>
+        </div>
+        <div class="write-us__submit-wrapper">
+            <div class="write-us__submit-inner">
+                <input type="submit" class="write-us__submit global-link">
+            </div>
+        </div>
+    </form>
+
+</div>
+<div class="login">
+    <span class="write-us__close login__close"></span>
+    <div class="login__inner">
+        <p class="login__title">Личный кабинет</p>
+        <p class="login__description">Введите ваш логин и пароль</p>
+        <form action="#" class="login__form" name="login">
+            <input type="text" class="login__field login__margin-bottom-10" placeholder="Логин" required>
+            <input type="password" class="login__field login__margin-bottom-20" placeholder="Пароль" required>
+            <div class="login__checkbox-inner">
+                <div class="manufacture__item login__checkbox-item">
+                    <label class="manufactures__label login__checkbox">
+                        <input type="checkbox" class="manufacture__flag " checked>
+                        <span class="manufacture__indicator "></span>
+                        Запомнить меня</label>
+                </div>
+                <a href="#" class="login__forgot-password">Напомнить пароль</a>
+            </div>
+            <div class="login__submit-inner">
+                <input type="submit" class="login__btn global-link" value="Войти">
+                <a href="#" class="login__registration-btn global-link">Зарегистрироваться</a>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="registration">
+    <span class="write-us__close registration__close"></span>
+    <div class="registration__inner">
+        <p class="registration__title">Регистрация</p>
+        <p class="registration__description">Заполните форму регистрации</p>
+        <form action="#" class="registration__form" name="registration">
+            <span class="registration__text">Имя*</span>
+            <input type="text" class="registration__field" name="registrationFirstName" placeholder="Ваше имя">
+            <span class="registration__text">Фамилия</span>
+            <input type="text" class="registration__field" name="registrationLastName" placeholder="Ваша фамилия">
+            <span class="registration__text">Телефон</span>
+            <input type="tel" class="registration__field" name="registrationTel" placeholder="Для связи с Вами">
+            <span class="registration__text">Е-мейл*</span>
+            <input type="email" class="registration__field" name="registrationEmail" placeholder="Email является логином для входа">
+            <span class="registration__text">Пароль*</span>
+            <input type="password" class="registration__field" name="registrationPassword" placeholder="Введите желаемы пароль" >
+            <span class="registration__text">Повторите пароль*</span>
+            <input type="password" class="registration__field registration__field_margin" name="registrationPasswordRepeat" placeholder="Повторите пароль" >
+            <span class="registration__text registration__text_checker-password registration__text_checker">Пароли должны совпадать</span>
+            <span class="registration__text registration__text_checker-fields registration__text_checker">Заполните поля отмеченные звездочкой *</span>
+            <span class="registration__text registration__text_checker-email registration__text_checker">Некорректный емейл *</span>
+            <input type="submit" class="registration__submit global-link" name="registrationSubmit" value="Зарегистрироваться">
+        </form>
+    </div>
+</div>
+<div class="modal-background"></div>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
+<script src="js/modals.js"></script>
+<script src="js/registrationChecker.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/filters.js"></script>
 </body>
