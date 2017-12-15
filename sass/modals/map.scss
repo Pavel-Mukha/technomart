@@ -1,0 +1,18 @@
+.map{
+  width:944px;
+  height:449px;
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-top:-224px;
+  margin-left:-472px;
+  box-shadow: 0 10px 30px 10px rgba(0,0,0, .25);
+  border:2px solid #999999;
+  z-index:21;
+  &__close{
+    right:-30px;
+  }
+}
+.map{
+  display: none;
+}

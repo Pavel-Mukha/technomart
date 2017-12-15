@@ -3,6 +3,12 @@
   flex-direction:column;
   justify-content:space-between;
   width:300px;
+  &__map{
+    width:300px;
+    height:160px;
+    background: url("../../../../img/map.jpg")no-repeat center;
+    cursor: pointer;
+  }
   &__frame{
     z-index:-1;
   }

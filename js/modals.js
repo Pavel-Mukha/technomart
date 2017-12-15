@@ -1,5 +1,7 @@
 function slowShowModal(item, zIndex) {
     zIndex = zIndex || 20;
+    document.body.style.overflow = 'hidden';
+    document.body.style.paddingRight = '17px';
     item.setAttribute("style", "display:flex;");
     item.style.zIndex = zIndex;
     item.style.opacity = "0";
@@ -19,7 +21,10 @@ function slowShowModal(item, zIndex) {
         modalCloseClickTarget(e, opener); //добавить хендлер на закрытие по клику на крестик
     });
     slowShowModal(modalBackground);
-
+    var form = opener.querySelector('form');
+    if(form){
+        form.elements[0].focus();
+    }
     modalBackground.addEventListener('click', function () {
         modalCloseClick(opener) //добавить хендлер на закрытие по бэкграунду
     });
@@ -31,15 +36,21 @@ function modalCloseClickTarget(event, opener) {
     event.preventDefault();
     opener.removeAttribute('style');
     modalBackground.removeAttribute('style');
+    document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
 }
 function modalCloseClick(opener) {
     modalBackground.removeAttribute('style');
     opener.removeAttribute('style');
+    document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
 }
 function modalCloseKey(event, opener) {
     if(event.keyCode === 27){
         opener.removeAttribute('style');
         modalBackground.removeAttribute('style');
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
     }
 }
 var contactUs = document.querySelector(".contacts__link");
@@ -53,6 +64,17 @@ var registrationButton = document.querySelector(".main-header__sign-up");
 var registrationModal = document.querySelector(".registration");
 var registrationModalCloser = document.querySelector(".registration__close");
 var loginRegistrationBtn = document.querySelector(".login__registration-btn");
+var map = document.querySelector(".map");
+var mapButton = document.querySelector(".contacts__map");
+var mapClose = document.querySelector(".map__close");
+
+
+
+if(mapButton){
+    mapButton.addEventListener('click', function (event) {
+        modalShow(event, map, mapClose); //event, opener, closer
+    })
+}
 
 if(contactUs) {
     contactUs.addEventListener('click', function (event) {
