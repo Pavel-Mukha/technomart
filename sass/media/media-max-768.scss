@@ -494,7 +494,7 @@
   .filters {
     position: absolute;
     width:300px;
-    left:-350px;
+    left:-500px;
     top:-10px;
     padding:10px;
     z-index: 11;
@@ -557,6 +557,53 @@
     margin-bottom:20px;
   }
 
+  /* modals */
+
+  .login{
+    width:300px;
+    height:400px;
+    margin-top:-200px;
+    margin-left:-150px;
+    &__submit-inner{
+      flex-direction:column;
+    }
+    &__btn{
+      width:100%;
+      margin-bottom:10px;
+    }
+    &__registration-btn{
+      width:100%;
+    }
+  }
+  .registration{
+    width:300px;
+    height:460px;
+    margin-top:-225px;
+    margin-left:-150px;
+    &__description{
+      display: none;
+    }
+    &__field_margin{
+      margin-bottom:10px;
+    }
+    &__submit{
+      margin-bottom:5px;
+    }
+  }
+  .write-us{
+    width:500px;
+    margin-left:-250px;
+  }
+  .map{
+    margin-top:-200px;
+    margin-left:-250px;
+    &__frame{
+      width:500px;
+      height:400px;
+    }
+  }
+
+
   /* end */
 }
 
@@ -584,4 +631,7 @@
       display: none;
     }
   }
+
 }
+
+

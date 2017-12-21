@@ -67,6 +67,7 @@ var loginRegistrationBtn = document.querySelector(".login__registration-btn");
 var map = document.querySelector(".map");
 var mapButton = document.querySelector(".contacts__map");
 var mapClose = document.querySelector(".map__close");
+var adaptiveLogin = document.getElementById("adaptive-login")
 
 
 
@@ -83,6 +84,9 @@ if(contactUs) {
 }
 
 loginButton.addEventListener('click',function (event) {
+    modalShow(event, loginModal, loginModalCloser); //event, opener, closer
+});
+adaptiveLogin.addEventListener('click',function (event) {
     modalShow(event, loginModal, loginModalCloser); //event, opener, closer
 });
 registrationButton.addEventListener('click',function (event) {

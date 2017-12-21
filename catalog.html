@@ -10,8 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="sass/pages/catalog/filters/filter.scss">
+    <link rel="stylesheet" href="./dist/style.css">
     <!--[if lte IE 9]><style>.wrapper{
     display: none;
 }
@@ -24,7 +23,6 @@
     обновите ваш браузер до актуальной версии.
 </p>
 <![endif]-->
-
 <div class="wrapper">
     <header class="main-header">
         <div class="main-header__wrapper-status-bar">
@@ -81,9 +79,9 @@
             </div>
         </div>
     </header>
-    <section class="adaptive-header">
+    <div class="adaptive-header">
         <div class="adaptive-header__status-bar">
-            <div class="adaptive-header__logo"><a>ТЕХНОМАРТ</a></div>
+            <div class="adaptive-header__logo"><a class="adaptive-header__logo-link" href="index.html">ТЕХНОМАРТ</a></div>
             <div class="touch-menu">
                 <span class="touch-menu__indicator"></span>
                 <span class="touch-menu__indicator"></span>
@@ -112,15 +110,16 @@
                 <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
                     <div class="adaptive-header__bookmarks"><a class="adaptive-header__bookmarks-href" href="#">Закладки: 0</a></div>
                 </div></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link">
-                    <div class="adaptive-header__basket"><div class="adaptive-header__basket-href" href="#anchor-delivery">Корзина: 0</div></div>
+                <li class="adaptive-navigation__item"><a href="#anchor-delivery" class="adaptive-navigation__link">
+                    <div class="adaptive-header__basket"><div class="adaptive-header__basket-href" >Корзина: 0</div></div>
                 </a></li>
                 <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
                     <div class="adaptive-header__order"><a class="adaptive-header__order-href" href="#">Оформить заказ</a></div>
                 </div></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#" id="adaptive-login">Войти</a></li>
             </ul>
         </div>
-    </section>
+    </div>
     <div class="breadcrumbs inner">
         <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
@@ -143,7 +142,7 @@
 
     <div class="catalog-wrapper inner">
         <div class="filters__title open-filters filters__title_adaptive"><span>Показать фильтр</span></div>
-        <section class="filters">
+        <div class="filters">
             <div class="filters__close-wrapper open-filters">
                 <span class="filters__close filters__close_left"></span>
                 <span class="filters__close filters__close_right"></span>
@@ -225,8 +224,8 @@
 
                 </div>
             <div class="filter__body"></div>
-        </section>
-        <section class="content-wrapper">
+        </div>
+        <div class="content-wrapper">
             <div class="sorting">
                 <div class="sorting__name"><span>СОРТИРОВКА:</span></div>
                 <form action="#" class="sorting__type" method="get" enctype="application/x-www-form-urlencoded">
@@ -413,7 +412,7 @@
                     <li class="paginator__item"><a href="#" class="paginator__link paginator__link_next">СЛЕДУЮЩАЯ</a></li>
                 </ul>
             </div>
-        </section>
+        </div>
     </div>
     <section class="catalog-seo">
         <div class="catalog-seo__name inner"><h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2></div>
@@ -547,8 +546,8 @@
     </div>
 </div>
 <div class="modal-background"></div>
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/menu.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/modals.js"></script>
 <script src="js/registrationChecker.js"></script>
 <script src="js/scroll.js"></script>

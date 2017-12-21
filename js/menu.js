@@ -1,49 +1,58 @@
-$(document).ready(function(){
-    var touch = $('.touch-menu');
-    var menu = $('.adaptive-navigation');
+// $(document).ready(function(){
+//     var touch = $('.touch-menu');
+//     var menu = $('.adaptive-navigation');
 
-    $(touch).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-    });
-    $(window).resize(function(){
-        var wid = $(window).width();
-        if(wid > 768 && menu.is(':hidden')) {
-            menu.removeAttr('style');
+//     $(touch).on('click', function(e) {
+//         e.preventDefault();
+//         menu.slideToggle();
+//     });
+//     $(window).resize(function(){
+//         var wid = $(window).width();
+//         if(wid > 768 && menu.is(':hidden')) {
+//             menu.removeAttr('style');
+//         }
+//     });
+// });
+
+function openMenu(event){
+    event.preventDefault();
+    adaptiveNav.setAttribute('style', 'display:block; height:0; overflow:hidden;');
+    var height = 0;
+    var iter = 0;
+    var start = Date.now();
+    function animate(){
+        height +=18;
+        adaptiveNav.style.height = height + 'px';
+        var opener = requestAnimationFrame(animate);
+        iter++;
+        var timePassed = Date.now() - start;
+        if(parseInt(adaptiveNav.style.height) >= adaptiveNav.scrollHeight){
+            cancelAnimationFrame(opener);
+            adaptiveNav.style.height = adaptiveNav.scrollHeight + 'px';
+            touchMenu.removeEventListener('click', openMenu);
+            touchMenu.addEventListener('click', closeMenu);
+            console.log('раз вызвана функция - ' +iter );
+            console.log('прошмло мс - ' + timePassed)
         }
-    });
-});
-// var touch = document.querySelector(".touch-menu");
-// var adaptiveNavigation = document.querySelector(".adaptive-navigation");
-// function showMenu(event){
-//     event.preventDefault();
-//     adaptiveNavigation.style.display = 'block';
-//     adaptiveNavigation.style.height = '0';
-//     adaptiveNavigation.style.overflow = 'hidden';
-//     var height = 0;
-//     var currentHeight = adaptiveNavigation.scrollHeight; //полчение полной высоты меню
-//         var timer = setInterval(function () {
-//             adaptiveNavigation.style.height = height + 'px'; //актуальная высота
-//             if(parseInt(adaptiveNavigation.style.height) === currentHeight){ //устловие остановки
-//                 clearInterval(timer);
-//                 touch.removeEventListener('click', showMenu);
-//             }
-//             height += 13; //итератор высоты
-//         },16);
-// }
-// function closeMenu() {
-//     event.preventDefault();
-//         adaptiveNavigation.style.overflow = 'hidden';
-//             var currentHeight = parseInt(adaptiveNavigation.scrollHeight);
-//             var timer = setInterval(function () {
-//                 adaptiveNavigation.style.height = currentHeight + 'px'; //актуальная высота
-//                 if (parseInt(adaptiveNavigation.style.height) <= currentHeight) { //устловие остановки
-//                     clearInterval(timer);
-//                 }
-//                 currentHeight -= 13; //итератор высоты
-//             }, 16);
-// }
-// if(!adaptiveNavigation.scrollHeight || adaptiveNavigation.style.display === 'none')
-//     touch.addEventListener('click', showMenu);
-// if(adaptiveNavigation.style.display === 'block')
-//     touch.addEventListener('click', closeMenu);
+    }
+    requestAnimationFrame(animate);
+}
+function closeMenu(event){
+    event.preventDefault();
+    var height = adaptiveNav.scrollHeight;
+    function animate(){
+        height -=18;
+        adaptiveNav.style.height = height + 'px';
+        var opener = requestAnimationFrame(animate);
+        if(parseInt(adaptiveNav.style.height) <= 0){
+            cancelAnimationFrame(opener);
+            adaptiveNav.removeAttribute('style');
+            touchMenu.addEventListener('click', openMenu);
+            touchMenu.removeEventListener('click', closeMenu);
+        }
+    }
+    requestAnimationFrame(animate);
+}
+var adaptiveNav = document.querySelector('.adaptive-navigation');
+var touchMenu = document.querySelector('.touch-menu');
+touchMenu.addEventListener('click', openMenu);

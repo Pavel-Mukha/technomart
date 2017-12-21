@@ -1,4 +1,12 @@
 @media screen and (max-width: 960px){
+  .map{
+    margin-top:-200px;
+    margin-left:-350px;
+    &__frame{
+      width:700px;
+      height:400px;
+    }
+  }
   .main-header {
     padding-bottom: 35px;
     &__info{

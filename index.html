@@ -10,15 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="js/menu.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="sass/global/header/header.scss">
+    <link rel="stylesheet" href="./dist/style.css">
     <!--[if lte IE 9]><style>.wrapper{
         display: none;
-    }
-    </style><![endif]-->
+    }</style><![endif]-->
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -83,16 +78,16 @@
             </div>
         </div>
     </header>
-    <section class="adaptive-header">
+    <div class="adaptive-header">
         <div class="adaptive-header__status-bar">
             <div class="adaptive-header__logo"><a>ТЕХНОМАРТ</a></div>
-            <div class="touch-menu">
+            <div class="touch-menu" id='touch-menu'>
                 <span class="touch-menu__indicator"></span>
                 <span class="touch-menu__indicator"></span>
                 <span class="touch-menu__indicator"></span>
             </div>
         </div>
-        <div class="adaptive-navigation">
+        <div class="adaptive-navigation" id="adaptive-navigation">
             <ul class="adaptive-navigation__list">
                 <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
                         <div class="adaptive-header__search">
@@ -114,15 +109,16 @@
                 <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
                     <div class="adaptive-header__bookmarks"><a class="adaptive-header__bookmarks-href" href="#">Закладки: 0</a></div>
                 </div></li>
-                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link">
-                    <div class="adaptive-header__basket"><div class="adaptive-header__basket-href" href="#anchor-delivery">Корзина: 0</div></div>
+                <li class="adaptive-navigation__item"><a href="#anchor-delivery" class="adaptive-navigation__link">
+                    <div class="adaptive-header__basket"><div class="adaptive-header__basket-href">Корзина: 0</div></div>
                 </a></li>
                 <li class="adaptive-navigation__item"><div class="adaptive-navigation__link">
                     <div class="adaptive-header__order"><a class="adaptive-header__order-href" href="#">Оформить заказ</a></div>
                 </div></li>
+                <li class="adaptive-navigation__item"><a class="adaptive-navigation__link" href="#" id="adaptive-login">Войти</a></li>
             </ul>
         </div>
-    </section>
+    </div>
     <section class="categories inner">
         <div class="categories__item categories__item_yellow">
             <span class="products__new products__new-active"></span>
@@ -484,7 +480,7 @@
             <span class="registration__text">Телефон</span>
             <input type="tel" class="registration__field" name="registrationTel" placeholder="Для связи с Вами">
             <span class="registration__text">Е-мейл*</span>
-            <input type="email" class="registration__field" name="registrationEmail" placeholder="Email является логином для входа">
+            <input type="email" class="registration__field" name="registrationEmail" placeholder="Email является логином">
             <span class="registration__text">Пароль*</span>
             <input type="password" class="registration__field" name="registrationPassword" placeholder="Введите желаемы пароль" >
             <span class="registration__text">Повторите пароль*</span>
@@ -498,13 +494,13 @@
 </div>
 <div class="map">
     <span class="write-us__close map__close"></span>
-    <iframe class="contacts__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.6538920949693!2d34.80922051521692!3d50.91161996190944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41290221f4220ef9%3A0x60abde8a08204d82!2z0LLRg9C70LjRhtGPINCi0YDQvtGX0YbRjNC60LAsIDQsINCh0YPQvNC4LCDQodGD0LzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1510686801874" width="940" height="445"  style="border:0"></iframe>
+    <iframe class="contacts__frame map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.6538920949693!2d34.80922051521692!3d50.91161996190944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41290221f4220ef9%3A0x60abde8a08204d82!2z0LLRg9C70LjRhtGPINCi0YDQvtGX0YbRjNC60LAsIDQsINCh0YPQvNC4LCDQodGD0LzRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1510686801874"  style="border:0"></iframe>
 </div>
 <div class="modal-background"></div>
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/menu.js"></script>
-<script type="text/javascript" src="js/scroll.js"></script>
-<script type="text/javascript" src="js/modals.js"></script>
-<script type="text/javascript" src="js/registrationChecker.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/modals.js"></script>
+<script src="js/registrationChecker.js"></script>
 </body>
 </html>

@@ -1751,6 +1751,10 @@ table {
     line-height: 1.84;
     color: #000; }
 
+.adaptive-header__logo-link {
+  color: #ffffff;
+  text-decoration: none; }
+
 /*placeholder*/
 /*transition*/
 /* size */
@@ -1866,6 +1870,9 @@ table {
     height: 115px;
     background-color: #f1f1f1; }
   .write-us__submit-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: 460px; }
   .write-us__submit {
     border: none;
@@ -2058,16 +2065,16 @@ table {
   display: none; }
 
 .map {
-  width: 944px;
-  height: 449px;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -224px;
-  margin-left: -472px;
+  margin-top: -210px;
+  margin-left: -450px;
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.25);
-  border: 2px solid #999999;
-  z-index: 21; }
+  border: 2px solid #999999; }
+  .map__frame {
+    width: 900px;
+    height: 420px; }
   .map__close {
     right: -30px; }
 
@@ -2076,6 +2083,12 @@ table {
 
 /* media queries */
 @media screen and (max-width: 960px) {
+  .map {
+    margin-top: -200px;
+    margin-left: -350px; }
+    .map__frame {
+      width: 700px;
+      height: 400px; }
   .main-header {
     padding-bottom: 35px; }
     .main-header__info {
@@ -2567,7 +2580,7 @@ table {
   .filters {
     position: absolute;
     width: 300px;
-    left: -350px;
+    left: -500px;
     top: -10px;
     padding: 10px;
     z-index: 11;
@@ -2613,6 +2626,39 @@ table {
   .paginator {
     justify-content: center;
     margin-bottom: 20px; }
+  /* modals */
+  .login {
+    width: 300px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -150px; }
+    .login__submit-inner {
+      flex-direction: column; }
+    .login__btn {
+      width: 100%;
+      margin-bottom: 10px; }
+    .login__registration-btn {
+      width: 100%; }
+  .registration {
+    width: 300px;
+    height: 460px;
+    margin-top: -225px;
+    margin-left: -150px; }
+    .registration__description {
+      display: none; }
+    .registration__field_margin {
+      margin-bottom: 10px; }
+    .registration__submit {
+      margin-bottom: 5px; }
+  .write-us {
+    width: 500px;
+    margin-left: -250px; }
+  .map {
+    margin-top: -200px;
+    margin-left: -250px; }
+    .map__frame {
+      width: 500px;
+      height: 400px; }
   /* end */ }
 
 /* отключение адаптивной версии хедера
@@ -2667,6 +2713,40 @@ table {
   .menu-2 {
     display: none;
     flex-wrap: wrap; }
+  .write-us {
+    width: 300px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -150px;
+    padding-top: 20px; }
+    .write-us__header {
+      flex-direction: column;
+      align-items: center;
+      width: 280px; }
+    .write-us__inner {
+      width: 280px;
+      margin-bottom: 10px; }
+    .write-us__field {
+      width: 100%; }
+    .write-us__footer {
+      width: 280px; }
+    .write-us__message {
+      margin-bottom: 0; }
+    .write-us__submit-wrapper {
+      width: 100%;
+      height: 65px;
+      align-items: center; }
+    .write-us__submit {
+      display: flex; }
+    .write-us__submit-inner {
+      width: 280px;
+      justify-content: center; }
+  .map {
+    margin-top: -200px;
+    margin-left: -200px; }
+    .map__frame {
+      width: 400px;
+      height: 400px; }
   /* end */ }
 
 @media screen and (max-width: 500px) {
@@ -2748,4 +2828,10 @@ table {
     padding-right: 0; }
   .filters {
     width: 80%; }
+  .map {
+    margin-top: -200px;
+    margin-left: -150px; }
+    .map__frame {
+      width: 300px;
+      height: 400px; }
   /* end */ }

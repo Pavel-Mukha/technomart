@@ -103,10 +103,15 @@
   }
   .filters{
     width:80%;
-
   }
-
-
+  .map{
+    margin-top:-200px;
+    margin-left:-150px;
+    &__frame{
+      width:300px;
+      height:400px;
+    }
+  }
 
 
 

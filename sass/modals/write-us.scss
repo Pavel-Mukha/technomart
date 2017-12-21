@@ -88,6 +88,9 @@
     background-color: #f1f1f1;
   }
   &__submit-inner{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
     width:460px;
   }
   &__submit{
